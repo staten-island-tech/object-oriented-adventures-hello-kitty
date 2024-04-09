@@ -31,6 +31,7 @@
 #If user goes right:Print("Safe.") 
 #Asks question 3: "Do you want to go left or right?"
 
- 
+#If user goes right:faces Pompompurin: Gets infected and dies. Print("Game Over")
+#Goes back to the beginning of the game.
 
 
