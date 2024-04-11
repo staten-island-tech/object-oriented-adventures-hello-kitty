@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T16:23:18.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ROCmPfIjzhVaMKd4YSjA" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T16:27:04.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="0yMioaBoEHb6Wx9fKA7L" version="24.2.2" type="github">
   <diagram name="Page-1" id="5LlEbIMTyORBuogDaFjC">
     <mxGraphModel dx="1039" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -78,10 +78,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tEx5Qb1VozVaRzZuJDBV-10" value="Faces Pompompurin:&lt;div&gt;Infected, Game over.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tEx5Qb1VozVaRzZuJDBV-11" value="Great work! Do you want to go left or right?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tEx5Qb1VozVaRzZuJDBV-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tEx5Qb1VozVaRzZuJDBV-11" target="tEx5Qb1VozVaRzZuJDBV-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -97,27 +97,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tEx5Qb1VozVaRzZuJDBV-17" value="Alright! Do you want to go left or right?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tEx5Qb1VozVaRzZuJDBV-18" value="Faces Keroppi: Infected, Game over." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GIQqniiIVt0HV621rGbp-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="630" as="sourcePoint" />
-            <mxPoint x="420" y="690" as="targetPoint" />
+            <mxPoint x="410" y="560" as="sourcePoint" />
+            <mxPoint x="420" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GIQqniiIVt0HV621rGbp-3" value="Faces Kuromi: Infected, Game over:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GIQqniiIVt0HV621rGbp-4" value="Good job your safe. Left or right?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GIQqniiIVt0HV621rGbp-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="GIQqniiIVt0HV621rGbp-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="630" as="sourcePoint" />
-            <mxPoint x="260" y="690" as="targetPoint" />
+            <mxPoint x="290" y="560" as="sourcePoint" />
+            <mxPoint x="270" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
