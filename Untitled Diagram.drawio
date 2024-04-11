@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T16:22:43.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="LikiCusZlob5GgX689sH" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T16:23:18.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ROCmPfIjzhVaMKd4YSjA" version="24.2.2" type="github">
   <diagram name="Page-1" id="5LlEbIMTyORBuogDaFjC">
     <mxGraphModel dx="1039" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -96,7 +96,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tEx5Qb1VozVaRzZuJDBV-17" value="Safe! Do you want to go left or right?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="tEx5Qb1VozVaRzZuJDBV-17" value="Alright! Do you want to go left or right?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tEx5Qb1VozVaRzZuJDBV-18" value="Faces Keroppi: Infected, Game over." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
