@@ -20,6 +20,7 @@
 #Goes back to the beginning of the game.
 
 #If the user chooses left: Print("Safe.") 
+
 #Asks question 2: "Do you want to go left or right?"
 
 
@@ -34,4 +35,9 @@
 #If user goes right:faces Pompompurin: Gets infected and dies. Print("Game Over")
 #Goes back to the beginning of the game.
 
+#If the user goes left: Print("Safe")
+#Asks question 4: "Do you want to go left or right?"
 
+#If the user goes right: print("safe")
+#If the user goes left: 
+#Faces Keroppi: Gets infected and dies. Print("Game over.")
