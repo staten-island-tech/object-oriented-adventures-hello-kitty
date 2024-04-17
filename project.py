@@ -23,19 +23,17 @@
 
 #Asks question 2: "Do you want to go left or right?"
 
-
-
 #If user goes left: 
 # Faces Mimmy: Gets infected and dies. Print("Game Over")
 #Goes back to the beginning of the game.
-
 #If user goes right:Print("Safe.") 
+
 #Asks question 3: "Do you want to go left or right?"
 
 #If user goes right:faces Pompompurin: Gets infected and dies. Print("Game Over")
 #Goes back to the beginning of the game.
-
 #If the user goes left: Print("Safe")
+
 #Asks question 4: "Do you want to go left or right?"
 
 #If the user goes right: print("safe")
