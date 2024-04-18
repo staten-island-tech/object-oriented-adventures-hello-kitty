@@ -1,0 +1,202 @@
+<mxfile host="app.diagrams.net" modified="2024-04-17T16:02:18.717Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="WeO0A2sse-UsSroUKUcm" version="24.2.5" type="github">
+  <diagram name="Page-1" id="5LlEbIMTyORBuogDaFjC">
+    <mxGraphModel dx="1525" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_NxTg8_wLGh0XsBcsqda-1" value="User = Hello Kitty" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NxTg8_wLGh0XsBcsqda-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_NxTg8_wLGh0XsBcsqda-1" target="_NxTg8_wLGh0XsBcsqda-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="390" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NxTg8_wLGh0XsBcsqda-3" value="Enters Forest, recives greeting and gets told problem" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="315" y="85" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_NxTg8_wLGh0XsBcsqda-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="290" as="sourcePoint" />
+            <mxPoint x="40" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7879TOK5EqhNazuiK5TY-4" value="Faces My Melody:&lt;div&gt;Infected, Game over.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEx5Qb1VozVaRzZuJDBV-4" value="Faces Mimmy:&amp;nbsp;&lt;div&gt;Infected, Game over.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEx5Qb1VozVaRzZuJDBV-18" value="Faces Keroppi: Infected, Game over." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIQqniiIVt0HV621rGbp-3" value="Faces Kuromi: Infected, Game over:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIQqniiIVt0HV621rGbp-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="405" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-5" value="Start and Spawn point" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7PJfbnYGz-ancqn9hBVP-5" target="_NxTg8_wLGh0XsBcsqda-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="39.5" as="sourcePoint" />
+            <mxPoint x="290" y="39.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-7" value="Problem: All of Hello Kitty&#39;s friends&amp;nbsp;&lt;div&gt;have turned evil from an&amp;nbsp;&lt;/div&gt;&lt;div&gt;unknown disease, and they each&amp;nbsp;&lt;/div&gt;&lt;div&gt;have an item of the potion that&#39;s&amp;nbsp;&lt;/div&gt;&lt;div&gt;needed to cure them.&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="10" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-8" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="150" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-9" value="https://www.google.com/search?sca_esv=de06a028fb71868c&amp;amp;sca_upv=1&amp;amp;rlz=1C1GCEU_enUS1095US1095&amp;amp;q=flow+chart+python&amp;amp;tbm=isch&amp;amp;source=lnms&amp;amp;sa=X&amp;amp;sqi=2&amp;amp;pjf=1&amp;amp;ved=2ahUKEwiYz5mGiL2FAxU6K1kFHf8jDkQQ0pQJegQICRAB&amp;amp;biw=1920&amp;amp;bih=953&amp;amp;dpr=1#imgrc=Rs77YsGVS4k2sM" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="415" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-10" value="Safe! Do you want to go left or right?" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="345" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="7PJfbnYGz-ancqn9hBVP-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="135" as="sourcePoint" />
+            <mxPoint x="380" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-13" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-14" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="385" y="625" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-15" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="500" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-16" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-17" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="260" width="105" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="220" as="sourcePoint" />
+            <mxPoint x="465" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="465" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="550" as="sourcePoint" />
+            <mxPoint x="560" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="220" as="sourcePoint" />
+            <mxPoint x="310" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="350" as="sourcePoint" />
+            <mxPoint x="380" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="450" as="sourcePoint" />
+            <mxPoint x="470" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PJfbnYGz-ancqn9hBVP-24" value="Awesome! Do you want to go left or right?" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="340" as="sourcePoint" />
+            <mxPoint x="240" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-2" value="Faces Pompompurin:&lt;div&gt;Infected, Game over.&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="515" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="330" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-4" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-5" value="Great work! Do you want to go left or right?" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="580" as="sourcePoint" />
+            <mxPoint x="415" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="415" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="380" as="sourcePoint" />
+            <mxPoint x="-10" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="330" as="sourcePoint" />
+            <mxPoint x="110" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="570" as="sourcePoint" />
+            <mxPoint x="260" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-12" value="Good job your safe. Left or right?" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EOdqMSnJ5QibezlsffoA-14" value="Alright! Do you want to go left or right?" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
