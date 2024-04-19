@@ -39,3 +39,20 @@
 #If the user goes right: print("safe")
 #If the user goes left: 
 #Faces Keroppi: Gets infected and dies. Print("Game over.")
+
+#Asks question 5: "Do you want to go left or righ?"
+#If the user goes right: print("Safe")
+#If the user goes left:
+#Faces Kuromi: Gets infected and dies. Print ("Game over.")
+
+#Asks question 6: "Do you want to go left or right?"
+#If the user goes right: Faces Tuxedo Sam gets infected and dies. Print("Game over")
+#If the user goes left: Print("Safe")
+
+#Asks question 7: "Do you want to go left or right?"
+#If the user goes right:Print("Safe")
+#If the user goes left: Faces Pochacco gets infected and dies. Print("Game over")
+
+#Asks question 8: "Do you want to go left or right?"
+#If the user goes right:Faces Gudetama gets infected and dies. Print("Game Over")
+#If the user goes left: Print("Safe")
