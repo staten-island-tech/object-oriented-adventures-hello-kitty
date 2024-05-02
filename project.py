@@ -67,4 +67,10 @@
 
 #PRINT CONGRADULATIONS.
 # Narrator: "You have obtained all neccesary materials to save your friend."
-#Narrator: You poured the solution 
+#Narrator: You poured the solution, solute, and fairy dust into the magic bottle for the potion. Then it was throughly mixed before it was corked and shaken. After, you lay out the magic map and hold it in place with magic rocks.
+#Finally, the magic potion is poured on to the magic map and cures all of your friends from the infection.
+
+#Maybe use while loop? 
+#Do you want to play again Y/N
+#If yes restart game. If No print end screen.
+# The End.  
