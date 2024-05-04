@@ -9,3 +9,15 @@ Enemies = [{
     'skill' : "infection",
     'type' : "enemy",
 },{
+    'name' : "Mimmy",
+    'skill' : "infection",
+    'type'  : "enemy",
+}, {
+    'name' : "Pompompurin",
+    'skill' : "infection",
+    'type' : "enemy",
+}, {
+    'name' : "Keroppi",
+    'skill' : "infection",
+    'type' : "enemy",
+}]
