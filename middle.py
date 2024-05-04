@@ -1,4 +1,5 @@
-character and enemies from import sanrio_characters
+from sanrio_characters import Character
+from sanrio_characters import Enemies
 
 right = "<"
 question = None
@@ -6,7 +7,7 @@ left = ">"
 
 def middle():
     def attack():
-        if character < enemies and character > enemies:
+        if Character < Enemies and Character > Enemies:
             return
 
     def parts():
