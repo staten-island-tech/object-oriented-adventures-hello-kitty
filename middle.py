@@ -1,5 +1,4 @@
-import enemy 
-import character
+characters and enemies from import sanrio_characters
 
 right = "<"
 question = None
