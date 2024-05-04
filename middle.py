@@ -7,7 +7,7 @@ left = ">"
 
 def middle():
     def attack():
-        if character < enemy:
+        if character < enemy and character > enemy:
             return
 
     def parts():
