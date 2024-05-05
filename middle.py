@@ -3,7 +3,7 @@ import intro
 right = "<"
 question = None
 left = ">"
-
+                
 def middle():
       for i in range(4):
           question = input("Do you want to go left or right?")
@@ -11,14 +11,14 @@ def middle():
               print("Safe")
           elif question == "right":
               print("Game Over")
-              again = input("Do you want to play again?: Y or N")
-              if again == "Y":
-                  middle()
-                  return
-              if again == "N":
-                  return
-              else: 
-                  print("Invalid")
+              again = input("Do you want to play again?: Yes or No")
+              if again == "Yes":
+                    middle()
+                    return
+              if again == "No":
+                    return
+              else:
+                    print("Invalid")
           
           while question == "left":
               question = input("Do you want to go left or right?")
@@ -26,11 +26,11 @@ def middle():
                   print("Safe")
               elif question == "left":
                   print("Game Over")
-                  again = input("Do you want to play again?: Y or N")
-                  if again == "Y":
+                  again = input("Do you want to play again?: Yes or No")
+                  if again == "Yes": 
                     middle()
                     return
-                  if again == "N":
+                  if again == "No":
                       return
                   else:
                       print("Invalid")
@@ -44,5 +44,8 @@ def middle():
              return
           else:
               print("Invalid")
+
+middle() 
+
 
 middle() 
