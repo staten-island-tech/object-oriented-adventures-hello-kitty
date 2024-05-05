@@ -23,11 +23,11 @@ class Game:
               print("Safe")
           elif question == "right":
               print("Game Over")
-              again = input("Do you want to start all over again?: Y or N:")
-              if again == "Y":
+              again = input("Do you want to start all over again?: Yes or No:")
+              if again == "Yes":
                   middle()
                   return
-              if again == "N":
+              if again == "No":
                   return
               else: 
                   print("Invalid")
@@ -38,11 +38,11 @@ class Game:
                   print("Safe")
               elif question == "left":
                   print("Game Over")
-                  again = input("Do you want to start all over again?: Y or N:")
-                  if again == "Y":
+                  again = input("Do you want to start all over again?: Yes or No:")
+                  if again == "Yes":
                     middle()
                     return
-                  if again == "N":
+                  if again == "No":
                       return
                   else:
                       print("Invalid")
