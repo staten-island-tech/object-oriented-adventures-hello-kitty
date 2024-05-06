@@ -2,7 +2,6 @@ from intro import narration
 from intro import start
 import intro
 import middle
-import end
 
 class Game:
     def intro(start):   
