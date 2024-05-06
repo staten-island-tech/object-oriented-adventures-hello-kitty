@@ -1,8 +1,5 @@
 from intro import narration
 from intro import start
-from middle import right
-from middle import question
-from middle import left
 import intro
 import middle
 import end
