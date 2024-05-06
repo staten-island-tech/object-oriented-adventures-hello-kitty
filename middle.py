@@ -1,10 +1,6 @@
 from intro import start
 import intro 
 
-right = "<"
-question = None
-left = ">"
-
 while start == "Y": 
   def middle():         
      for i in range(4):
