@@ -1,65 +1,186 @@
-from intro import narration
-from intro import start
 import intro
-import middle
+import middle 
+
+narrator = ("You are Hello Kitty. All of your friends have turned evil due to an unknown illness! You need to compete with your friends in competitions inorder to obtain items for the potion.At the end of the forest you will find a potion that turns all your friends back to normal.")
+start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
 
 class Game:
-    def intro(start):   
+    def intro(start): 
         for i in start:
             if start == "Y":
-                print(narration)
+                print(narrator)
             elif start == "N":
                 print("Exit terminal.")
             else:
                 print("Invalid")
-
+                exit()
     intro(start)
 
     while start == "Y": 
-        def middle():         
-          for i in range(4):
-                question = input("Do you want to go left or right?:")
-                if question == "left":
-                    print("Safe, with an addition of a potion solution")
-                    print("Health: +15 gems")
-                elif question == "right":
-                    print("Game Over")
-                    print("Health: 0 gems")
-                    again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
-                    if again == "Yes":
-                        middle()
-                        return
-                    if again == "No":
-                        return
-                    else:
-                        print("Invalid")
-                else:
-                    print("Invalid")
-                    exit()
+      def middle():         
+         question = input("Do you want to go left or right?:")
+         if question == "left":
+             print("Safe, with an addition of a potion solution")
+             print("Health: +15 gems")
+         elif question == "right":
+             print("Game Over")
+             print("Health: 0 gems")
+             again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
+             if again == "Yes":
+                   middle()
+                   return
+             if again == "No":
+                   return
+             else:
+                   print("Invalid")
+         else:
+             print("Invalid")
+             exit()
         
-                while question == "left":
-                    question = input("Do you want to go left or right?:")
-                    if question == "right":
-                        print("Safe, with an addition of a potion solution")
-                        print("Health: +15 gems")
-                    elif question == "left":
-                        print("Game Over")
-                        print("Health: 0 gems")
-                        again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
-                        if again == "Yes":
-                            middle()
-                            return
-                        if again == "No":
-                            return
-                        else:
-                            print("Invalid")
-                    else:
-                        print("Invalid")
-                        exit()
-          while True:
+         while question == "left":
+             question = input("Do you want to go left or right?:")
+             if question == "right":
+                 print("Safe, with an addition of a potion solute")
+                 print("Health: +15 gems")
+             elif question == "left":
+                 print("Game Over")
+                 print("Health: 0 gems")
+                 again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
+                 if again == "Yes":
+                   middle()
+                   return
+                 if again == "No":
+                     return
+                 else:
+                     print("Invalid")
+             else:
+                 print("Invalid")
+                 exit()
+
+         while question == "right":
+             question = input("Do you want to go left or right?:")
+             if question == "left":
+                 print("Safe, with an addition of Fairy Dust")
+                 print("Health: +15 gems")
+             elif question == "left":
+                 print("Game Over")
+                 print("Health: 0 gems")
+                 again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
+                 if again == "Yes":
+                   middle()
+                   return
+                 if again == "No":
+                     return
+                 else:
+                     print("Invalid")
+             else:
+                 print("Invalid")
+                 exit()
+
+         while question == "left":
+             question = input("Do you want to go left or right?:")
+             if question == "right":
+                 print("Safe, with an addition of a Magic Mixer")
+                 print("Health: +15 gems")
+             elif question == "left":
+                 print("Game Over")
+                 print("Health: 0 gems")
+                 again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
+                 if again == "Yes":
+                   middle()
+                   return
+                 if again == "No":
+                     return
+                 else:
+                     print("Invalid")
+             else:
+                 print("Invalid")
+                 exit()
+
+         while question == "right":
+             question = input("Do you want to go left or right?:")
+             if question == "left":
+                 print("Safe, with an addition of a Magic bottle")
+                 print("Health: +15 gems")
+             elif question == "left":
+                 print("Game Over")
+                 print("Health: 0 gems")
+                 again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
+                 if again == "Yes":
+                   middle()
+                   return
+                 if again == "No":
+                     return
+                 else:
+                     print("Invalid")
+             else:
+                 print("Invalid")
+                 exit()
+         
+         while question == "left":
+             question = input("Do you want to go left or right?:")
+             if question == "right":
+                 print("Safe, with an addition of a Magic Map")
+                 print("Health: +15 gems")
+             elif question == "left":
+                 print("Game Over")
+                 print("Health: 0 gems")
+                 again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
+                 if again == "Yes":
+                   middle()
+                   return
+                 if again == "No":
+                     return
+                 else:
+                     print("Invalid")
+             else:
+                 print("Invalid")
+                 exit()
+
+         while question == "right":
+             question = input("Do you want to go left or right?:")
+             if question == "left":
+                 print("Safe, with an addition of a Magic rocks")
+                 print("Health: +15 gems")
+             elif question == "left":
+                 print("Game Over")
+                 print("Health: 0 gems")
+                 again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
+                 if again == "Yes":
+                   middle()
+                   return
+                 if again == "No":
+                     return
+                 else:
+                     print("Invalid")
+             else:
+                 print("Invalid")
+                 exit()
+         
+         while question == "left":
+             question = input("Do you want to go left or right?:")
+             if question == "right":
+                 print("Safe, with an addition of a cork")
+                 print("Health: +15 gems")
+             elif question == "left":
+                 print("Game Over")
+                 print("Health: 0 gems")
+                 again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
+                 if again == "Yes":
+                   middle()
+                   return
+                 if again == "No":
+                     return
+                 else:
+                     print("Invalid")
+             else:
+                 print("Invalid")
+                 exit()
+
+         while True:
             question = input("Are you ready to see what you got?: Yes or No?:")
             if question == "Yes":
-                print("Yay! You've made it! You have 8 potion solutions, and a cork for your potion bottle.")
+                print("Yay! You've made it! You have collected all the necessary things for your potion.")
                 print("Total Health: 120 gems")
                 return
             elif question == "No":
@@ -68,6 +189,5 @@ class Game:
             else:
                 print("Invalid")
                 exit()
-        middle()
-        exit()
-
+    middle()
+    exit()
