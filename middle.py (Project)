@@ -167,12 +167,11 @@ while start == "Y":
             if question == "Yes":
                 print("Yay! You've made it! You have collected all the necessary things for your potion.")
                 print("Total Health: 120 gems")
-                return
+                exit()
             elif question == "No":
                 print("Sorry, but I'm afraid this will leave you as incomplete.")
-                return
+                exit()
             else:
                 print("Invalid")
                 exit()
   middle()
-  exit()
