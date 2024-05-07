@@ -12,9 +12,6 @@
 #You need to memorize the paths that your friends are not on, in order to make it to the end of the forest."
 #At the end of the forest you will find a potion that turns all your friends back to normal."
 
-<<<<<<< HEAD
- 
-=======
 
 # Asks question1: Do you want to go left or right?
 #First choice from the start:
@@ -77,4 +74,3 @@
 #Do you want to play again Y/N
 #If yes restart game. If No print end screen.
 # The End.  
->>>>>>> 3382dea173d13fae03994521b235ffa372b2742c

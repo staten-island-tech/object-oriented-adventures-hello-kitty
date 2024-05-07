@@ -17,7 +17,7 @@ Enemies = [{
     'skill' : "bubblegum competition",
     'type' : "enemy",
 }, {
-    'name' : "Keroppi",
+    'name' : "Keroppi",           #Afsheen do it up to here
     'skill' : "cooking",     #Hello Kitty has to has a cooking competition
     'type' : "friend",
 }, {
