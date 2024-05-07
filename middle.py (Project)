@@ -1,5 +1,5 @@
-from intro import start
 import intro 
+start = start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
 
 while start == "Y": 
   def middle():
