@@ -1,0 +1,9 @@
+import uuid
+class friends:
+    def __init__(self, name, skill, type):
+        self.name = name
+        self.skill = skill
+        self.type = type
+class characters:
+     def __init__(self, name, skill, type):
+         self.name =
