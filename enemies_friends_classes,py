@@ -5,10 +5,14 @@ class characters:
         self.name = name
         self.skill = skill      
         self.type = type
+    def __str__(self):
+        return f"{self.name},{self.skill},{self.type}"
 class Main_characters(characters):
     def __init__(self, name, skill, type, main):
         super().__init__(name,skill, type)
         self.main= main
+    def __str__(self):
+        return f"{self.name},{self.skill},{self.type}, {self.main}"
 class friends(characters):
     def __init__(self, name, skill, type, status1):
         super().__init__(name,skill, type)
@@ -67,12 +71,12 @@ while add_enemies =="Y":
       skill = "Handstand endurance"
       type = "Enemy"
       status2= "Infected"
-      create_main(name, skill, type, status2)
+      create_enemies(name, skill, type, status2)
       name = "Mimmy"
       skill = "Karate"
       type = "Enemy"
       status2= "Infected"
-      create_main(name, skill, type, status2)
+      create_enemies(name, skill, type, status2)
       name = "Pompompurin"
       skill = "Bubblegum competition"
       type = "Enemy"
