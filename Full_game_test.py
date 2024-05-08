@@ -58,5 +58,3 @@ while start == "Y":
   exit()
 
 middle() 
-
-
