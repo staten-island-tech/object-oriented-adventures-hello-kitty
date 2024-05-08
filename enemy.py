@@ -29,6 +29,7 @@ while add_friend == 'Y':
       name = "Tuxedo Sam"
       skill = "Making Ties"
       create_friend(name, skill)
+      exit()
    else:
       print("Sorry, I'm afraid you can't play this game.")
       exit()
