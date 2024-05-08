@@ -14,73 +14,58 @@
 
 
 # Asks question1: Do you want to go left or right?
-#Adds input for the user to choose Y/N
-#First choice from the start:
 
 # If the user goes right:
-# Faces My Melody: Gets infected and dies. Print("Game Over")
+# Faces My Melody: Gets infected and dies. Print("Game Over")                             left  Q1
 #Goes back to the beginning of the game.
-
 
 #If the user chooses left: Print("Safe.") 
 #Gains potion solution.
 
+
 #Asks question 2: "Do you want to go left or right?"
-#Adds input for the user to choose Y/N
 
 #If user goes left: 
-# Faces Mimmy: Gets infected and dies. Print("Game Over")
+# Faces Mimmy: Gets infected and dies. Print("Game Over")                               right Q2
 #Goes back to the beginning of the game.
 #If user goes right:Print("Safe.") 
 #Gains solute for potion.
 
 #Asks question 3: "Do you want to go left or right?"
-#Adds input for the user to choose Y/N
 
 #If user goes right:faces Pompompurin: Gets infected and dies. Print("Game Over")
-#Goes back to the beginning of the game.
+#Goes back to the beginning of the game.                                                    left Q3
 #If the user goes left: Print("Safe")
-#Gains fairy dust for potion.
+#Gains fairy dust.
 
 #Asks question 4: "Do you want to go left or right?"
-#Adds input for the user to choose Y/N
 
-#If the user goes right: print("safe")
+#If the user goes left: print("safe")                                                  left Q4
 #Gains Magic Mixer
-#If the user goes left: 
-#Faces Keroppi: Gets infected and dies. Print("Game over.")
+
 
 #Asks question 5: "Do you want to go left or righ?"
-#Adds input for the user to choose Y/N
-
 #If the user goes right: print("Safe")
 #Gains Magic bottle for potion
-#If the user goes left:
+#If the user goes left:                                                               right Q5
 #Faces Kuromi: Gets infected and dies. Print ("Game over.")
 
 #Asks question 6: "Do you want to go left or right?"
-#Adds input for the user to choose Y/N
-
-#If the user goes right: Faces Tuxedo Sam gets infected and dies. Print("Game over")
-#If the user goes left: Print("Safe")
+#If the user goes right: Print("Safe")                                                     right Q6
 #Gains Magic Map of the forest.
 
 #Asks question 7: "Do you want to go left or right?"
-#Adds input for the user to choose Y/N
-
-#If the user goes right:Print("Safe")
+#If the user goes right:Print("Safe")                                                   right  Q7
 #Gains Magic rocks.
 #If the user goes left: Faces Pochacco gets infected and dies. Print("Game over")
 
 #Asks question 8: "Do you want to go left or right?"
-#Adds input for the user to choose Y/N
-
-#If the user goes right:Faces Gudetama gets infected and dies. Print("Game Over")
+#If the user goes right:Faces Gudetama gets infected and dies. Print("Game Over")            left Q8
 #If the user goes left: Print("Safe")
 #Gains the cork for potion bottle.
 
 #PRINT CONGRADULATIONS.
-# Narrator: "You have obtained all neccesary materials to save your friend."
+# Narrator: "You have obtained all neccesary materials to save your friends."
 #Narrator: You poured the solution, solute, and fairy dust into the magic bottle for the potion. Then it was throughly mixed before it was corked and shaken. After, you lay out the magic map and hold it in place with magic rocks.
 #Finally, the magic potion is poured on to the magic map and cures all of your friends from the infection.
 
