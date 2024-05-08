@@ -64,7 +64,7 @@
 #If the user goes left: Print("Safe")
 #Gains the cork for potion bottle.
 
-#PRINT CONGRADULATIONS.
+#END PRINTS.
 # Narrator: "You have obtained all neccesary materials to save your friends."
 #Narrator: You poured the solution, solute, and fairy dust into the magic bottle for the potion. Then it was throughly mixed before it was corked and shaken. After, you lay out the magic map and hold it in place with magic rocks.
 #Finally, the magic potion is poured on to the magic map and cures all of your friends from the infection.
