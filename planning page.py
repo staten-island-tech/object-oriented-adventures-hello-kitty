@@ -14,15 +14,19 @@
 
 
 # Asks question1: Do you want to go left or right?
+#Adds input for the user to choose Y/N
 #First choice from the start:
 
 # If the user goes right:
 # Faces My Melody: Gets infected and dies. Print("Game Over")
 #Goes back to the beginning of the game.
 
+
 #If the user chooses left: Print("Safe.") 
 #Gains potion solution.
+
 #Asks question 2: "Do you want to go left or right?"
+#Adds input for the user to choose Y/N
 
 #If user goes left: 
 # Faces Mimmy: Gets infected and dies. Print("Game Over")
@@ -31,13 +35,15 @@
 #Gains solute for potion.
 
 #Asks question 3: "Do you want to go left or right?"
+#Adds input for the user to choose Y/N
 
 #If user goes right:faces Pompompurin: Gets infected and dies. Print("Game Over")
 #Goes back to the beginning of the game.
 #If the user goes left: Print("Safe")
-#Gains fairy dust.
+#Gains fairy dust for potion.
 
 #Asks question 4: "Do you want to go left or right?"
+#Adds input for the user to choose Y/N
 
 #If the user goes right: print("safe")
 #Gains Magic Mixer
@@ -45,22 +51,30 @@
 #Faces Keroppi: Gets infected and dies. Print("Game over.")
 
 #Asks question 5: "Do you want to go left or righ?"
+#Adds input for the user to choose Y/N
+
 #If the user goes right: print("Safe")
 #Gains Magic bottle for potion
 #If the user goes left:
 #Faces Kuromi: Gets infected and dies. Print ("Game over.")
 
 #Asks question 6: "Do you want to go left or right?"
+#Adds input for the user to choose Y/N
+
 #If the user goes right: Faces Tuxedo Sam gets infected and dies. Print("Game over")
 #If the user goes left: Print("Safe")
 #Gains Magic Map of the forest.
 
 #Asks question 7: "Do you want to go left or right?"
+#Adds input for the user to choose Y/N
+
 #If the user goes right:Print("Safe")
 #Gains Magic rocks.
 #If the user goes left: Faces Pochacco gets infected and dies. Print("Game over")
 
 #Asks question 8: "Do you want to go left or right?"
+#Adds input for the user to choose Y/N
+
 #If the user goes right:Faces Gudetama gets infected and dies. Print("Game Over")
 #If the user goes left: Print("Safe")
 #Gains the cork for potion bottle.
