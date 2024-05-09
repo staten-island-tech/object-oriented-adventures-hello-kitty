@@ -15,7 +15,7 @@ class Game:
     intro(start)
 
     while start == "Y": 
-      def middle():         
+      def middle(): 
          question = input("Do you want to go left or right?:")
          if question == "left":
              print("Safe, with an addition of a potion solution")
@@ -180,7 +180,7 @@ class Game:
             if question == "Yes":
                 print("Yay! You've made it! You have collected all the necessary things for your potion.")
                 print("Total Health: 120 gems")
-                return
+                exit()
             elif question == "No":
                 print("Sorry, but I'm afraid this will leave you as incomplete.")
                 return
@@ -188,6 +188,6 @@ class Game:
                 print("Invalid")
                 exit()
     middle()
-    exit()
+    
 
 
