@@ -8,4 +8,7 @@ def intro(start):
             print("Exit Game. We hope to see you again!")
         else:
             print("Invalid")
+            exit()
 intro(start)
+
+
