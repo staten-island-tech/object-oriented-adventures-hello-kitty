@@ -56,8 +56,8 @@ while add_heros == "Y":
     user_request = input("Do you want to add the main character? Y/N: ")
     if user_request == "Y":
       name = "Hello Kitty"
-      skill = "Battling"
-      type = "Hero"
+      skill = "is battling her friends"
+      type = "she's the Heroine"
       main = "Main character"
       create_main(name, skill, type, main)
     elif user_request == "N":
