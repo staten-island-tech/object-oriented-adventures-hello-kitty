@@ -74,7 +74,7 @@ def check_stat(stat): #This checks the status to see if the user put Y or not.
         return False
     
 while add_enemies =="Y":
-    request = input("Do you want to add enemies?Y/N: ")
+    request = input("Do you want to add enemies? Y/N: ")
     if request == "Y":
       name = "My Melody"
       skill = "Handstand endurance"
