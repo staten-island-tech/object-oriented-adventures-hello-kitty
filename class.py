@@ -1,7 +1,9 @@
-narration = ("You are Hello Kitty. All of your friends have turned evil due to an unknown illness! You need to memorize the paths that your friends are not on, in order to make it to the end of the forest.At the end of the forest you will find a potion that turns all your friends back to normal.")
+narrator = ("You are Hello Kitty. All of your friends have turned evil due to an unknown illness! You need to memorize the paths that your friends are not on, in order to make it to the end of the forest.At the end of the forest you will find a potion that turns all your friends back to normal.")
 start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
+import middle
 
 class Game:
+<<<<<<< Updated upstream
     def intro():
         for i in start:
             start
@@ -125,8 +127,8 @@ class Game:
                  print("Health: 0 gems")
                  again = input("Do you want to play again?: (Brings you back to questions) Yes or No:")
                  if again == "Yes":
-                   middle()
-                   return
+                    middle()
+                    return
                  if again == "No":
                      return
                  else:
@@ -187,7 +189,4 @@ class Game:
             else:
                 print("Invalid")
                 exit()
-    middle()
-    exit()
-
-
+      middle()
