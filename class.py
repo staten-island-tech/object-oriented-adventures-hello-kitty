@@ -1,18 +1,13 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 89d7167d69546338744268f360fa457457d363be
 narration = ("You are Hello Kitty. All of your friends have turned evil due to an unknown illness! You need to memorize the paths that your friends are not on, in order to make it to the end of the forest.At the end of the forest you will find a potion that turns all your friends back to normal.")
 start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
 
 class Game:
-    def intro(start): 
+    def intro():
         for i in start:
+            start
             if start == "Y":
                 print(narrator)
-<<<<<<< HEAD
-=======
-=======
+
 from intro import narration
 from intro import start
 import intro
@@ -23,16 +18,12 @@ class Game:
         for i in start:
             if start == "Y":
                 print(narration)
->>>>>>> Afsheen
->>>>>>> 89d7167d69546338744268f360fa457457d363be
+
             elif start == "N":
                 print("Exit terminal.")
             else:
                 print("Invalid")
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 89d7167d69546338744268f360fa457457d363be
+
                 exit()
     intro(start)
 
@@ -201,9 +192,7 @@ class Game:
             question = input("Are you ready to see what you got?: Yes or No?:")
             if question == "Yes":
                 print("Yay! You've made it! You have collected all the necessary things for your potion.")
-<<<<<<< HEAD
-=======
-=======
+
 
     intro(start)
 
@@ -252,8 +241,7 @@ class Game:
             question = input("Are you ready to see what you got?: Yes or No?:")
             if question == "Yes":
                 print("Yay! You've made it! You have 8 potion solutions, and a cork for your potion bottle.")
->>>>>>> Afsheen
->>>>>>> 89d7167d69546338744268f360fa457457d363be
+
                 print("Total Health: 120 gems")
                 return
             elif question == "No":
@@ -262,15 +250,5 @@ class Game:
             else:
                 print("Invalid")
                 exit()
-<<<<<<< HEAD
     middle()
     exit()
-=======
-<<<<<<< HEAD
-    middle()
-    exit()
-=======
-        middle()
-        exit()
->>>>>>> Afsheen
->>>>>>> 89d7167d69546338744268f360fa457457d363be

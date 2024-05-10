@@ -5,7 +5,7 @@ def intro(start):
         if start == "Y":
             print(narrator)
         elif start == "N":
-            print("Exit terminal.")
+            print("Exit Game. We hope to see you again!")
         else:
             print("Invalid")
 intro(start)
