@@ -11,17 +11,6 @@ def intro(start):
         else:
             print("Invalid")
             exit()
-
-        while start == "Y":
-           user_request = input("Do you want to add the main character? Y/N: ")
-           if user_request == "Y":
-               while add_character == "Y":
-                   name = "Hello Kitty"
-                   health = 0
-           elif user_request == "N":
-               break
-           else:
-               print("Invalid")
 intro(start)
 
 
