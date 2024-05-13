@@ -2,12 +2,7 @@ from intro import start
 import intro 
 
 while start == "Y": 
-<<<<<<< Updated upstream
-  def middle():         
-     for i in range(4):
-=======
   def middle():
->>>>>>> Stashed changes
          question = input("Do you want to go left or right?:")
          if question == "left":
              print("Safe, with an addition of a potion solution")
@@ -30,11 +25,7 @@ while start == "Y":
          while question == "left":
              question = input("Do you want to go left or right?:")
              if question == "right":
-<<<<<<< Updated upstream
-                 print("Safe, with an addition of a potion solution")
-=======
                  print("Safe, with an addition of a potion solute")
->>>>>>> Stashed changes
                  print("Health: +15 gems")
              elif question == "left":
                  print("Game Over")
@@ -50,26 +41,6 @@ while start == "Y":
              else:
                  print("Invalid")
                  exit()
-<<<<<<< Updated upstream
-     while True:
-         question = input("Are you ready to see what you got?: Yes or No?:")
-         if question == "Yes":
-            print("Yay! You've made it! You have 8 potion solutions, and a cork for your potion bottle.")
-            print("Total Health: 120 gems")
-            return
-         elif question == "No":
-            print("Sorry, but I'm afraid this will leave you as incomplete.")
-            return
-         else:
-             print("Invalid")
-             exit()
-  middle()
-  exit()
-
-middle() 
-
-
-=======
 
          while question == "right":
              question = input("Do you want to go left or right?:")
@@ -204,4 +175,3 @@ middle()
                 print("Invalid")
                 exit()
   middle()
->>>>>>> Stashed changes
