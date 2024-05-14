@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ 
 import uuid
 class characters:
   def __init__(self, name, skill, type, health):
@@ -53,7 +53,7 @@ def check_stat(stat): #This checks the status to see if the user put Y or not.
      return True
  else:
      return False
-=======
+ 
 class Friend:
     def __init__(self, name, skill):
        self.name = name
@@ -90,4 +90,4 @@ while add_friend == 'Y':
     else:
        print("Sorry, I'm afraid you can't play this game.")
        exit()
->>>>>>> Hongzheng-Wu
+ 
