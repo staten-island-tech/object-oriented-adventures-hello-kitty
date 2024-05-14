@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import intro
 
 def part1():
@@ -406,7 +406,7 @@ def part8():
           print("Invalid")
           exit()
 part8()
-=======
+
 from intro import start
 import intro 
 
@@ -584,4 +584,4 @@ while start == "Y":
                 print("Invalid")
                 exit()
   middle()
->>>>>>> Hongzheng-Wu
+ 
