@@ -3,7 +3,7 @@ start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
 import middle
 
 class Game:
-<<<<<<< Updated upstream
+
     def intro():
         for i in start:
             start
