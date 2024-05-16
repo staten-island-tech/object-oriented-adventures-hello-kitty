@@ -52,14 +52,3 @@ def check_stat(stat): #This checks the status to see if the user put Y or not.
      return True
  else:
      return False
- 
-def character1():
-    name = "My Melody"
-    skill = "Handstand endurance"
-    type = "Enemy"
-    status2= "Infected"
-    health = 0
-    print(name, skill, type, status2, health)
-    print("You've come across My Melody.")
-  
-character1()
