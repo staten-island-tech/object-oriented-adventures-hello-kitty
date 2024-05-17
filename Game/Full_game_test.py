@@ -1,6 +1,7 @@
 from classes import create_main
 from classes import create_enemies5
 from classes import create_friends
+
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
 
@@ -14,22 +15,23 @@ def intro():
      else:
          print("Invalid")
          exit()
- while start == "Y":
-       user_request = input("Do you want to add the main character? Y/N: ")
-       for i in range(1):
-         if user_request == "Y":
+     while start == "Y":
+        user_request = input("Do you want to add the main character? Y/N: ")
+        for i in range(1):
+          if user_request == "Y":
              name = "Hello Kitty"
              skill = "Battling"
              type = "Hero"
              main = "Main character"
              health = 0
-             create_main(name, skill, type, main, health)
-         elif user_request == "N":
+             print(name, skill, type, main, health)
+          elif user_request == "N":
              break
-         else:
+          else:
              print("Invalid")
              exit()
-       while user_request == "Y":
+
+        while user_request == "Y":
          move_on = input("Enter Next:")
          for i in range(1):
              if move_on == "Next":
