@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import uuid
 class characters:
   def __init__(self, name, skill, type, health):
@@ -28,11 +27,13 @@ main_characters= []
 all_friends= []
 all_enemies= []
 
+
 def create_main(name, skill, type, main, health):
  new_main = Main_characters(name, skill, type, main, health)
  main_characters.append(new_main)
  for characters in main_characters:
      print(characters)
+
 
 def create_friends(name, skill,type, status1, health):
  new_friends = friends_lst(name, skill, type, status1, health)
@@ -40,54 +41,19 @@ def create_friends(name, skill,type, status1, health):
  for friends in all_friends:
      print(friends)
 
+
 def create_enemies5(name, skill, type, status2, health):
  new_enemies = enemies_lst(name, skill, type, status2, health)
  all_enemies.append(new_enemies)
  for enemies in all_enemies:
      print(enemies)
 
+
 user_request ="Y"
+
 
 def check_stat(stat): #This checks the status to see if the user put Y or not.
  if stat.upper == "Y":
      return True
  else:
      return False
-=======
-class Friend:
-    def __init__(self, name, skill):
-       self.name = name
-       self.skill = skill
-
-class Friends(Friend):
-    def __init__(self, name, skill):
-       super().__init__(name, skill)
-    def __str__(self):
-       return f"{self.name}, {self.skill}"
-
-friends = []
-
-def create_friend(name, skill):
-    her_friends = Friends(name, skill)
-    friends.append(her_friends)
-    for friend in friends:
-       print(friend)
-
-add_friend = "Y"
-
-while add_friend == 'Y':
-    request = input("Want to know who your friends are? Y or N:")
-    if request == "Y":
-       name = "Keroppi"
-       skill = "Cooking"
-       create_friend(name, skill)
-       name = "Tuxedo Sam"
-       skill = "Making Ties"
-       create_friend(name, skill)
-    if request == "N":
-       print("Sorry, I'm afraid you can't play this game.")
-       exit()
-    else:
-       print("Sorry, I'm afraid you can't play this game.")
-       exit()
->>>>>>> Hongzheng-Wu

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-import intro
+import intro 
 
 
 def middle():
@@ -180,8 +179,7 @@ def middle():
                print("Invalid")
                exit()
 middle()
-=======
-<<<<<<< HEAD
+
 import intro
 
 def part1():
@@ -517,7 +515,6 @@ def part7():
           health = 105
           print(name, skill, type, main, health)
 
-
           name = "Gudetama"
           skill = "Driving Fast"
           type = "Enemy"
@@ -589,7 +586,7 @@ def part8():
           print("Invalid")
           exit()
 part8()
-=======
+
 from intro import start
 import intro 
 
@@ -767,5 +764,3 @@ while start == "Y":
                 print("Invalid")
                 exit()
   middle()
->>>>>>> Hongzheng-Wu
->>>>>>> d5668d79d5481ec7628e16f39f09cfed4d5ad4eb

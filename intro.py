@@ -1,24 +1,9 @@
-<<<<<<< HEAD
-narrator = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
-start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
-def intro(start):
-    for i in start:
-        if start == "Y":
-            print(narrator)
-        elif start == "N":
-            print("Exit Game. We hope to see you again!")
-        else:
-            print("Invalid")
-intro(start)
-=======
-<<<<<<< HEAD
 from classes import create_main
 from classes import create_enemies5
 from classes import create_friends
+
+
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
-=======
-narrator = ("Hello. You are Hello Kitty. All of your friends have turned evil due to an unknown illness! You need to memorize the paths that your friends are not on, in order to make it to the end of the forest.At the end of the forest you will find a potion that turns all your friends back to normal.")
->>>>>>> Hongzheng-Wu
 start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
 
 
@@ -56,7 +41,7 @@ def intro():
              else:
                  print("invalid")
                  exit()
-  
+ 
          while move_on == "Next":
              request = input("Do you want to add enemies?Y/N: ")
              for i in range(1):
@@ -72,7 +57,7 @@ def intro():
                  else:
                      print("Invalid")
                      exit()
-  
+ 
              while request == "Y":
                  move_on = input("Enter Next:")
                  for i in range(1):
@@ -81,7 +66,7 @@ def intro():
                      else:
                          print("Invalid")
                          exit()
-      
+     
                  while move_on == "Next":
                      ask_request = input("Do you want to add friends? Y/N: ")
                      for i in range(1):
@@ -99,6 +84,8 @@ def intro():
                              exit()
 
 
+
+
                      while ask_request == "Y":
                          move_on = input("Enter Next:")
                          for i in range(1):
@@ -107,7 +94,7 @@ def intro():
                              else:
                                  print("Invalid")
                                  exit()
-                  
+                 
                          while move_on == "Next":
                              ask = input("Would you like to play the game?:")
                              for i in range(1):
@@ -118,4 +105,3 @@ def intro():
                                      print("Invalid")
                                      exit()
 intro()
->>>>>>> d5668d79d5481ec7628e16f39f09cfed4d5ad4eb
