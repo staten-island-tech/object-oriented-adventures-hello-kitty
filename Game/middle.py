@@ -1,5 +1,4 @@
-import intro 
-
+import intro
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
   for i in range(1):
@@ -403,4 +402,4 @@ def part8():
       else:
           print("Invalid")
           exit()
-part8
+part8()
