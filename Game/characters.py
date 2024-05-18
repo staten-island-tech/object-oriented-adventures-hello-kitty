@@ -192,7 +192,7 @@ def part2():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-              intro
+              introduction()
           else:
               print("Good Bye!")
               exit()
@@ -244,7 +244,7 @@ def part3():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-              intro
+              introduction()
           else:
               print("Good Bye!")
               exit()
@@ -290,7 +290,7 @@ def part4():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-              intro
+              introduction()
           else:
               print("Good Bye!")
               exit()
@@ -342,7 +342,7 @@ def part5():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-              intro
+              introduction()
           else:
               print("Good Bye!")
               exit()
@@ -394,7 +394,7 @@ def part6():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-              intro
+              introduction()
           else:
               print("Good Bye!")
               exit()
@@ -447,7 +447,7 @@ def part7():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-              intro
+              introduction()
           else:
               print("Good Bye!")
               exit()
@@ -493,7 +493,7 @@ def part8():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-              intro
+              introduction()
           else:
               print("Good Bye!")
               exit()
