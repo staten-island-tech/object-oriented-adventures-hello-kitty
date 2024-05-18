@@ -1,7 +1,4 @@
-from classes import create_main
-from classes import create_enemies5
-from classes import create_friends
-
+import classes
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 
 def introduction():
@@ -17,6 +14,7 @@ def introduction():
          exit()
  while start == "Y":
        user_request = input("Do you want to add the main character? Y/N: ")
+
        for i in range(1):
          if user_request == "Y":
              name = "Hello Kitty"
@@ -24,7 +22,7 @@ def introduction():
              type = "Hero"
              main = "Main character"
              health = 0
-             create_main(name, skill, type, main, health)
+             classes.characters
          elif user_request == "N":
              break
          else:
@@ -49,7 +47,7 @@ def introduction():
                      type = "Enemy"
                      status2= "Infected"
                      health = 0
-                     create_enemies5(name, skill, type, status2, health)
+                     print(name, skill, type, status2, health)
                  elif user_request == "N":
                      break
                  else:
@@ -74,7 +72,7 @@ def introduction():
                              type = "Friend"
                              status1 = "Uninfected"
                              health = 0
-                             create_friends(name, skill, type, status1, health)
+                             print(name, skill, type, status1, health)
                          elif ask_request == "N":
                              break
                          else:
