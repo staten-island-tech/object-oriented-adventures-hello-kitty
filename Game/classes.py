@@ -28,10 +28,11 @@ all_friends= []
 all_enemies= []
 
 def create_main(name, skill, type, main, health):
- new_main = Main_characters(name, skill, type, main, health)
+ new_main = Main_characters(name = "Hello Kitty", skill = "Battling", type = "Hero", main = "Main Character", health = 0)
  main_characters.append(new_main)
  for characters in main_characters:
      print(characters)
+create_main()
 
 def create_friends(name, skill,type, status1, health):
  new_friends = friends_lst(name, skill, type, status1, health)
