@@ -4,7 +4,7 @@ class Game:
     def intro():
         characters.introduction
 
-    def middle(intro):
+    def middle():
         characters.part1
         characters.part2
         characters.part3
@@ -13,8 +13,9 @@ class Game:
         characters.part6
         characters.part7
         characters.part8
-    middle(intro)
+    middle()
 
     def end():
         characters.conclusion
+        characters.restart
     end()
