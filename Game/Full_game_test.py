@@ -14,3 +14,8 @@ class Game:
         characters.part7
         characters.part8
     middle()
+
+    def end():
+        characters.conclusion
+        characters.restart
+    end()
