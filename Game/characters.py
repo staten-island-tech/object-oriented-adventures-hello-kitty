@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-import intro
-=======
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 
 def introduction():
@@ -102,7 +99,6 @@ def introduction():
                                      exit()
 introduction()
 
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
   for i in range(1):
@@ -140,17 +136,10 @@ def part1():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-<<<<<<< HEAD
-              intro
+              introduction
           else:
               print("Good Bye!")
               exit()
-=======
-            introduction()
-          else:
-            print("Good Bye!")
-            exit()
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
 
     while move_on == "L":
        level_up = input("Do you want to proceed to the next level? Y or N:")
@@ -200,11 +189,7 @@ def part2():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-<<<<<<< HEAD
-              intro
-=======
-              introduction()
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
+              introduction
           else:
               print("Good Bye!")
               exit()
@@ -256,11 +241,7 @@ def part3():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-<<<<<<< HEAD
-              intro
-=======
               introduction()
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
           else:
               print("Good Bye!")
               exit()
@@ -306,11 +287,7 @@ def part4():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-<<<<<<< HEAD
-              intro
-=======
-              introduction()
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
+              introduction
           else:
               print("Good Bye!")
               exit()
@@ -362,11 +339,7 @@ def part5():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-<<<<<<< HEAD
-              intro
-=======
               introduction()
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
           else:
               print("Good Bye!")
               exit()
@@ -418,11 +391,7 @@ def part6():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-<<<<<<< HEAD
-              intro
-=======
               introduction()
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
           else:
               print("Good Bye!")
               exit()
@@ -463,10 +432,6 @@ def part7():
           health = 105
           print(name, skill, type, main, health)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
           name = "Gudetama"
           skill = "Driving Fast"
           type = "Enemy"
@@ -478,11 +443,7 @@ def part7():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-<<<<<<< HEAD
-              intro
-=======
               introduction()
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
           else:
               print("Good Bye!")
               exit()
@@ -528,11 +489,7 @@ def part8():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-<<<<<<< HEAD
-              intro
-=======
               introduction()
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
           else:
               print("Good Bye!")
               exit()

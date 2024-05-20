@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import intro
-=======
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
 import characters
 
 def middle():
@@ -14,8 +10,5 @@ def middle():
     characters.part7
     characters.part8
 middle()
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
