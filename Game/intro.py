@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from classes import create_main
 from classes import create_enemies5
 from classes import create_friends
@@ -101,4 +102,10 @@ def intro():
                                  else:
                                      print("Invalid")
                                      exit()
+=======
+import characters
+
+def intro():
+    characters.introduction
+>>>>>>> 5d153e531f7ac199cdbb2e517df17f18c1ae9674
 intro()
