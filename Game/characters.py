@@ -518,7 +518,7 @@ def conclusion():
             print("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
         else:
             print("Invalid")
-conclusion()
+conclusion() 
 
 def restart():
     game_question = input("Do you want to play again?: Y or N:")
