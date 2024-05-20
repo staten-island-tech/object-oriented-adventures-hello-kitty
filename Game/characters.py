@@ -502,3 +502,41 @@ def part8():
           print("Invalid")
           exit()
 part8()
+
+narrator = ("You have obtained all necessary materials to save your friends.")
+ending = ("You poured the solution, solute, and fairy dust into the magic bottle for the potion. After you mixed the solution with a branch, put the cork on top and shook it, then you  layed out the magic map and held it in place with magic rocks. Finally, the magic potion was poured on to the magic map and all of your friends were cured from the illness.")
+congrats = ("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
+
+def conclusion():
+    question = input("Do you want to see what had happened? Y or N:")
+    for i in question:
+        if question == "Y":
+            print(narrator)
+            return
+        elif question == "N":
+            print("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
+        else:
+            print("Invalid")
+conclusion()
+
+def restart():
+    game_question = input("Do you want to play again?: Y or N:")
+    for i in game_question:
+        if game_question == "Y":
+            introduction()
+            part1()
+            part2()
+            part3()
+            part4()
+            part5()
+            part6()
+            part7()
+            part8()
+            conclusion()
+            exit()
+        elif game_question == "N":
+            print("Hope you had a great time. Good bye!")
+        else:
+            print("Invalid")
+            exit()
+restart()
