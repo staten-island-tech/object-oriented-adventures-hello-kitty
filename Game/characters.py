@@ -98,7 +98,6 @@ def introduction():
                                      print("Invalid")
                                      exit()
 introduction()
-
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
   for i in range(1):
@@ -495,7 +494,7 @@ def part8():
               exit()
 
    while move_on == "L":
-      move = input("Great Job! Do you want to start making the potion?:")
+      move = input("Great Job! You have collected all the neccesary items for your potion. Do you want to start making the potion?:")
       if move == "Y":
           print("Great! Let's move on!")
           return
@@ -504,7 +503,7 @@ def part8():
           exit()
 part8()
 
-narrator = ("You have obtained all neccesary materials to save your friends.")
+narrator = ("You have obtained all necessary materials to save your friends.")
 ending = ("You poured the solution, solute, and fairy dust into the magic bottle for the potion. After you mixed the solution with a branch, put the cork on top and shook it, then you  layed out the magic map and held it in place with magic rocks. Finally, the magic potion was poured on to the magic map and all of your friends were cured from the illness.")
 congrats = ("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
 
@@ -518,7 +517,7 @@ def conclusion():
             print("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
         else:
             print("Invalid")
-conclusion() 
+conclusion()
 
 def restart():
     game_question = input("Do you want to play again?: Y or N:")
