@@ -13,7 +13,6 @@ def introduction():
          exit()
  while start == "Y":
        user_request = input("Do you want to add the main character? Y/N: ")
-
        for i in range(1):
          if user_request == "Y":
              name = "Hello Kitty"
@@ -36,7 +35,7 @@ def introduction():
              else:
                  print("invalid")
                  exit()
-  
+ 
          while move_on == "Next":
              request = input("Do you want to add enemies?Y/N: ")
              for i in range(1):
@@ -52,7 +51,7 @@ def introduction():
                  else:
                      print("Invalid")
                      exit()
-  
+ 
              while request == "Y":
                  move_on = input("Enter Next:")
                  for i in range(1):
@@ -61,7 +60,7 @@ def introduction():
                      else:
                          print("Invalid")
                          exit()
-      
+     
                  while move_on == "Next":
                      ask_request = input("Do you want to add friends? Y/N: ")
                      for i in range(1):
@@ -78,7 +77,6 @@ def introduction():
                              print("Invalid")
                              exit()
 
-
                      while ask_request == "Y":
                          move_on = input("Enter Next:")
                          for i in range(1):
@@ -87,7 +85,7 @@ def introduction():
                              else:
                                  print("Invalid")
                                  exit()
-                  
+                 
                          while move_on == "Next":
                              ask = input("Would you like to play the game?:")
                              for i in range(1):
@@ -98,6 +96,7 @@ def introduction():
                                      print("Invalid")
                                      exit()
 introduction()
+
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
   for i in range(1):
@@ -135,10 +134,10 @@ def part1():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-              introduction()
+            introduction()
           else:
-              print("Good Bye!")
-              exit()
+            print("Good Bye!")
+            exit()
 
     while move_on == "L":
        level_up = input("Do you want to proceed to the next level? Y or N:")
