@@ -136,7 +136,7 @@ def part1():
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
-              introduction
+              introduction()
           else:
               print("Good Bye!")
               exit()
