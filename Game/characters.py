@@ -97,7 +97,7 @@ def introduction():
                                  else:
                                      print("Invalid")
                                      exit()
-introduction()
+
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
   for i in range(1):
@@ -149,7 +149,6 @@ def part1():
           else:
               print("Invalid")
               exit()
-part1()
 
 def part2():
   next = input("Welcome! You've entered Level 2! Want to see your opponent? Y or N:")
@@ -201,7 +200,6 @@ def part2():
       else:
           print("Invalid")
           exit()
-part2()
 
 def part3():
   next = input("Welcome! You've entered Level 3! Want to see your opponent? Y or N:")
@@ -253,7 +251,6 @@ def part3():
       else:
           print("Invalid")
           exit()
-part3()
 
 def part4():
   next = input("Welcome! You've entered Level 4! Oh look, its your a friend. Want to see who it is? Y or N:")
@@ -299,7 +296,6 @@ def part4():
       else:
           print("Invalid")
           exit()
-part4()
 
 def part5():
   next = input("Welcome! You've entered Level 5! Want to see your opponent? Y or N:")
@@ -351,7 +347,6 @@ def part5():
       else:
           print("Invalid")
           exit()
-part5()
 
 def part6():
   next = input("Welcome! You've entered Level 6! Want to see your opponent? Y or N:")
@@ -403,7 +398,6 @@ def part6():
       else:
           print("Invalid")
           exit()
-part6()
 
 def part7():
   next = input("Welcome! You've entered Level 7! Want to see your opponent? Y or N:")
@@ -455,7 +449,6 @@ def part7():
       else:
           print("Invalid")
           exit()
-part7()
 
 def part8():
   next = input("Welcome! You've entered Level 8! Oh look, its your a friend. Want to see who it is? Y or N:")
@@ -501,7 +494,6 @@ def part8():
       else:
           print("Invalid")
           exit()
-part8()
 
 narrator = ("You have obtained all necessary materials to save your friends.")
 ending = ("You poured the solution, solute, and fairy dust into the magic bottle for the potion. After you mixed the solution with a branch, put the cork on top and shook it, then you  layed out the magic map and held it in place with magic rocks. Finally, the magic potion was poured on to the magic map and all of your friends were cured from the illness.")
@@ -539,4 +531,3 @@ def restart():
         else:
             print("Invalid")
             exit()
-restart()
