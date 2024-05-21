@@ -89,7 +89,7 @@ def introduction():
                                  exit()
                   
                          while move_on == "Next":
-                             ask = input("Would you like to play the game?:")
+                             ask = input("Would you like to play the game? Y/N:")
                              for i in range(1):
                                  if ask == "Y":
                                      print("Let's begin!")
