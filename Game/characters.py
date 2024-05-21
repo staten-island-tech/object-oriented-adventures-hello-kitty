@@ -23,7 +23,7 @@ def introduction():
              health = 0
              print(name, skill, type, main, health)
          elif user_request == "N":
-             break
+             exit()
          else:
              print("Invalid")
              exit()
@@ -48,7 +48,7 @@ def introduction():
                      health = 0
                      print(name, skill, type, status2, health)
                  elif user_request == "N":
-                     break
+                     exit()
                  else:
                      print("Invalid")
                      exit()
@@ -73,7 +73,7 @@ def introduction():
                              health = 0
                              print(name, skill, type, status1, health)
                          elif ask_request == "N":
-                             break
+                             exit()
                          else:
                              print("Invalid")
                              exit()
