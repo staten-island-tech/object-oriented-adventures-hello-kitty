@@ -1,3 +1,5 @@
+import characters
+
 class Game:
     def intro():
         characters.introduction
