@@ -1,5 +1,5 @@
-from characters import introduction
+import characters
 
 def intro():
-    introduction
+    characters.introduction
 intro()
