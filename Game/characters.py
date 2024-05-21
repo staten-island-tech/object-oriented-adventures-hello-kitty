@@ -96,7 +96,6 @@ def introduction():
                                      print("Invalid")
                                      exit()
 
-
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
   for i in range(1):
@@ -149,7 +148,6 @@ def part1():
               print("Invalid")
               exit()
 
-
 def part2():
   next = input("Welcome! You've entered Level 2! Want to see your opponent? Y or N:")
   for i in range(1):
@@ -200,7 +198,6 @@ def part2():
       else:
           print("Invalid")
           exit()
-
 
 def part3():
   next = input("Welcome! You've entered Level 3! Want to see your opponent? Y or N:")
@@ -253,7 +250,6 @@ def part3():
           print("Invalid")
           exit()
 
-
 def part4():
   next = input("Welcome! You've entered Level 4! Oh look, its your a friend. Want to see who it is? Y or N:")
   for i in next:
@@ -298,7 +294,6 @@ def part4():
       else:
           print("Invalid")
           exit()
-
 
 def part5():
   next = input("Welcome! You've entered Level 5! Want to see your opponent? Y or N:")
@@ -351,7 +346,6 @@ def part5():
           print("Invalid")
           exit()
 
-
 def part6():
   next = input("Welcome! You've entered Level 6! Want to see your opponent? Y or N:")
   for i in next:
@@ -402,7 +396,6 @@ def part6():
       else:
           print("Invalid")
           exit()
-
 
 def part7():
   next = input("Welcome! You've entered Level 7! Want to see your opponent? Y or N:")
@@ -455,7 +448,6 @@ def part7():
           print("Invalid")
           exit()
 
-
 def part8():
   next = input("Welcome! You've entered Level 8! Oh look, its your a friend. Want to see who it is? Y or N:")
   for i in next:
@@ -501,7 +493,6 @@ def part8():
           print("Invalid")
           exit()
 
-
 narrator = ("You have obtained all necessary materials to save your friends.")
 ending = ("You poured the solution, solute, and fairy dust into the magic bottle for the potion. After you mixed the solution with a branch, put the cork on top and shook it, then you  layed out the magic map and held it in place with magic rocks. Finally, the magic potion was poured on to the magic map and all of your friends were cured from the illness.")
 congrats = ("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
@@ -516,7 +507,6 @@ def conclusion():
             print("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
         else:
             print("Invalid")
-
 
 def restart():
     game_question = input("Do you want to play again?: Y or N:")
