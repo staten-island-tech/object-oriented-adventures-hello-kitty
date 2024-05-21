@@ -503,3 +503,4 @@ def part8():
           print("Invalid")
           exit()
 part8()
+
