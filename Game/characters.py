@@ -394,6 +394,7 @@ def restart():
             part7()
             part8()
             conclusion()
+            restart()
             exit()
         elif game_question == "N":
             print("Hope you had a great time. Good bye!")
