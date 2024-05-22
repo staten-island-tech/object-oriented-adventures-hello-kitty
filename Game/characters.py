@@ -178,7 +178,7 @@ def part4():
   next = input("Welcome! You've entered Level 4! Oh look, its your a friend. Want to see who it is? Y or N:")
   for i in next:
       if next == "Y":
-          classes.create_friends()
+          classes.create_friends("Keroppi","Cooking", "Friend", "Uninfected", 0)
           print("You've come across Keroppi.")
       else:
           print("Invalid")
@@ -208,6 +208,7 @@ def part5():
   next = input("Welcome! You've entered Level 5! Want to see your opponent? Y or N:")
   for i in next:
       if next == "Y":
+          classes.create_enemies5("Kuromi", "Swimming", "Enemy", "Infected", 0)
           print("You've come across Kuromi.")
       else:
           print("Invalid")
@@ -237,6 +238,7 @@ def part6():
   next = input("Welcome! You've entered Level 6! Want to see your opponent? Y or N:")
   for i in next:
       if next == "Y":
+          classes.create_enemies5("Pochacco", "Bird Nest Making", "Enemy", "Infected", 0)
           print("You've come across Pochacco.")
       else:
           print("Invalid")
