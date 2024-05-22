@@ -169,7 +169,7 @@ def part4():
   next = input("Welcome! You've entered Level 4! Oh look, its your a friend. Want to see who it is? Y or N:")
   for i in next:
       if next == "Y":
-          
+          classes.create_friends("Keroppi","Cooking", "Friend", "Uninfected", 0)
           print("You've come across Keroppi.")
       else:
           print("Invalid")
