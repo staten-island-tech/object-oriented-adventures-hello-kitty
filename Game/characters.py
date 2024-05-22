@@ -1,5 +1,6 @@
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 import classes
+import characters2
 
 def introduction():
  start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
@@ -110,13 +111,8 @@ def part1():
               exit()
 
     while move_on == "L":
-        level_up = input("Do you want to proceed to the next level? Y or N:")
-        if level_up == "Y":
-            print("Great! Let's move on!")
-            return
-        else:
-            print("Invalid")
-            exit()
+        characters2.go_on()
+        return
 
 def part2():
   next = input("Welcome! You've entered Level 2! Want to see your opponent? Y or N:")
@@ -145,13 +141,8 @@ def part2():
               exit()
 
     while move_on == "L":
-      level_up = input("Do you want to proceed to the next level? Y or N:")
-      if level_up == "Y":
-          print("Great! Let's move on!")
-          return
-      else:
-          print("Invalid")
-          exit()
+      characters2.go_on()
+      return
 
 def part3():
   next = input("Welcome! You've entered Level 3! Want to see your opponent? Y or N:")
@@ -180,13 +171,8 @@ def part3():
               exit()
 
    while move_on == "R":
-      level_up = input("Do you want to proceed to the next level? Y or N:")
-      if level_up == "Y":
-          print("Great! Let's move on!")
-          return
-      else:
-          print("Invalid")
-          exit()
+      characters2.go_on()
+      return
 
 def part4():
   next = input("Welcome! You've entered Level 4! Oh look, its your a friend. Want to see who it is? Y or N:")
@@ -215,13 +201,8 @@ def part4():
               exit()
 
    while move_on == "R":
-      level_up = input("Do you want to proceed to the next level? Y or N:")
-      if level_up == "Y":
-          print("Great! Let's move on!")
-          return
-      else:
-          print("Invalid")
-          exit()
+      characters2.go_on()
+      return
 
 def part5():
   next = input("Welcome! You've entered Level 5! Want to see your opponent? Y or N:")
@@ -250,13 +231,8 @@ def part5():
               exit()
 
    while move_on == "R":
-      level_up = input("Do you want to proceed to the next level? Y or N:")
-      if level_up == "Y":
-          print("Great! Let's move on!")
-          return
-      else:
-          print("Invalid")
-          exit()
+      characters2.go_on()
+      return
 
 def part6():
   next = input("Welcome! You've entered Level 6! Want to see your opponent? Y or N:")
@@ -285,13 +261,8 @@ def part6():
               exit()
 
    while move_on == "L":
-      level_up = input("Do you want to proceed to the next level? Y or N:")
-      if level_up == "Y":
-          print("Great! Let's move on!")
-          return
-      else:
-          print("Invalid")
-          exit()
+      characters2.go_on()
+      return
 
 def part7():
   next = input("Welcome! You've entered Level 7! Want to see your opponent? Y or N:")
@@ -320,13 +291,8 @@ def part7():
               exit()
 
    while move_on == "L":
-      level_up = input("Do you want to proceed to the next level? Y or N:")
-      if level_up == "Y":
-          print("Great! Let's move on!")
-          return
-      else:
-          print("Invalid")
-          exit()
+      characters2.go_on()
+      return
 
 def part8():
   next = input("Welcome! You've entered Level 8! Oh look, its your a friend. Want to see who it is? Y or N:")
