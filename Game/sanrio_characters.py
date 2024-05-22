@@ -6,7 +6,7 @@ character = [{
 
 Enemies = [{
     'name' : "My Melody",
-    'skill' : "handstand endurance",  #Hello Kitty has to defeat her in a handstand competition
+    'skill' : "handstand endurance",  #Hello Kitty has to deafeat her in a handstand competition
     'type' : "enemy",
 },{
     'name' : "Mimmy",           #Hello Kitty has to defeat her in a karate fight
