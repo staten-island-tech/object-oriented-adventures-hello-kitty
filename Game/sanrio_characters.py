@@ -6,10 +6,10 @@ character = [{
 
 Enemies = [{
     'name' : "My Melody",
-    'skill' : "handstand endurance",  #Hello Kitty has to deafeat her in a handstand competition
+    'skill' : "handstand endurance",  #Hello Kitty has to defeat her in a handstand competition
     'type' : "enemy",
 },{
-    'name' : "Mimmy",           #Hello Kitty has to deaft her in a karate fight
+    'name' : "Mimmy",           #Hello Kitty has to defeat her in a karate fight
     'skill' : "karate",
     'type'  : "enemy",
 }, {
@@ -17,10 +17,18 @@ Enemies = [{
     'skill' : "bubblegum competition",
     'type' : "enemy",
 }, {
+    'name' : "Keroppi",
+    'skill' : "cooking",     #Hello Kitty has to has a cooking competition
+    'type' : "friend",
+}, {
     'name': "Kuromi",         #Hello Kitty has to defeat the enemy in a swiming competition across the lake
     'skill': "swimming",
     'type': "enemy", 
 }, {
+    'name': "Tuxedo Sam",                 #they have a competitoon on how can tie 
+    'skill': "",
+    'type': "friend",
+},{
     'name': "Pochacco",           #bird nest making competiton
     'skill': "birdnest making", 
     'type': "enemy",
