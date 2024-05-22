@@ -14,8 +14,7 @@ def introduction():
          print("Invalid")
          exit()
  while start == "Y":
-       user_request = input("Do you want to add the main character? Y/N: ")
-
+       user_request = input("Do you want to see the main character? Y/N: ")
        for i in range(1):
          if user_request == "Y":
              classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 0)
@@ -38,27 +37,19 @@ def introduction():
              request = input("Do you want to add enemies?Y/N: ")
              for i in range(1):
                  if request == "Y":
-                     classes.create_enemies5(["My Melody", "Mimmy", "Pompompurin", "Kuromi", "Pochacco", "Gudetama"], ["Handstand endurance", "Karate", "Bubblegum competition", "Swimming", "Bird  Nest  Making", "Driving Fast"],"Enemy", "Infected", 0)
+                     print("Well... it looks like you won't know who they are... Sorry!")
+                     print("But your not alone, a couple of friends are with you.")
                  elif user_request == "N":
                      exit()
                  else:
                      print("Invalid")
                      exit()
-  
-             while request == "Y":
-                 move_on = input("Enter Next:")
-                 for i in range(1):
-                     if move_on == "Next":
-                         print("Yikes, that's a lot of enemies. But your not alone, a couple of friends are with you. You just won't know who they are.")
-                     else:
-                         print("Invalid")
-                         exit()
       
                  while move_on == "Next":
                      ask_request = input("Do you want to add friends? Y/N: ")
                      for i in range(1):
                          if ask_request == "Y":
-                             classes.create_friends(["Keroppi", "Tuxedo Sam"], ["Cooking", "Making Tie"], "Friend", "Uninfected", 0)
+                             print("Looks like you won't know them either. What a bother!")
                          elif ask_request == "N":
                              exit()
                          else:
@@ -178,7 +169,7 @@ def part4():
   next = input("Welcome! You've entered Level 4! Oh look, its your a friend. Want to see who it is? Y or N:")
   for i in next:
       if next == "Y":
-          classes.create_friends("Keroppi","Cooking", "Friend", "Uninfected", 0)
+          
           print("You've come across Keroppi.")
       else:
           print("Invalid")
@@ -208,7 +199,6 @@ def part5():
   next = input("Welcome! You've entered Level 5! Want to see your opponent? Y or N:")
   for i in next:
       if next == "Y":
-          classes.create_enemies5("Kuromi", "Swimming", "Enemy", "Infected", 0)
           print("You've come across Kuromi.")
       else:
           print("Invalid")
@@ -238,7 +228,6 @@ def part6():
   next = input("Welcome! You've entered Level 6! Want to see your opponent? Y or N:")
   for i in next:
       if next == "Y":
-          classes.create_enemies5("Pochacco", "Bird Nest Making", "Enemy", "Infected", 0)
           print("You've come across Pochacco.")
       else:
           print("Invalid")
