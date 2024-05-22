@@ -297,6 +297,7 @@ def part8():
   next = input("Welcome! You've entered Level 8! Oh look, its your a friend. Want to see who it is? Y or N:")
   for i in next:
       if next == "Y":
+          classes.create_friends("Tuxedo Sam", "Making Tie", "Friend", "Uninfected", 0)
           print("You've come across Tuxedo Sam.")
       else:
           print("Invalid")
