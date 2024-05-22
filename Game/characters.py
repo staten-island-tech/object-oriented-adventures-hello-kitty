@@ -1,4 +1,3 @@
-<<<<<<<< HEAD:Game/characters.py
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 import classes
 import characters2
@@ -389,27 +388,3 @@ def restart():
         else:
             print("Invalid")
             exit()
-========
-import characters
-
-class Game:
-    def intro():
-        characters.introduction()
-    intro()
-
-    def middle():
-        characters.part1()
-        characters.part2()
-        characters.part3()
-        characters.part4()
-        characters.part5()
-        characters.part6()
-        characters.part7()
-        characters.part8()
-    middle()
-
-    def end():
-        characters.conclusion()
-        characters.restart()
-    end()
->>>>>>>> Afsheen:Game/Full_game_test.py
