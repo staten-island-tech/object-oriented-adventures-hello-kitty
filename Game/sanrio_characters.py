@@ -17,18 +17,10 @@ Enemies = [{
     'skill' : "bubblegum competition",
     'type' : "enemy",
 }, {
-    'name' : "Keroppi",
-    'skill' : "cooking",     #Hello Kitty has to has a cooking competition
-    'type' : "friend",
-}, {
     'name': "Kuromi",         #Hello Kitty has to defeat the enemy in a swiming competition across the lake
     'skill': "swimming",
     'type': "enemy", 
 }, {
-    'name': "Tuxedo Sam",                 #they have a competitoon on how can tie 
-    'skill': "",
-    'type': "friend",
-},{
     'name': "Pochacco",           #bird nest making competiton
     'skill': "birdnest making", 
     'type': "enemy",
