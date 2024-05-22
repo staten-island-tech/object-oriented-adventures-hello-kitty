@@ -3,7 +3,7 @@ import characters
 class Game:
     def intro():
         characters.introduction()
-
+    intro()
     def middle():
         characters.part1()
         characters.part2()
@@ -14,7 +14,6 @@ class Game:
         characters.part7()
         characters.part8()
     middle()
-
     def end():
         characters.conclusion()
         characters.restart()
