@@ -117,7 +117,6 @@ def part2():
   next = input("Welcome! You've entered Level 2! Want to see your opponent? Y or N:")
   for i in range(1):
       if next == "Y":
-          classes.create_enemies5("Mimmy", "Swimming", "Enemy", "Infected", 0)
           print("You've come across Mimmy.")
       else:
           print("Invalid")
@@ -147,7 +146,6 @@ def part3():
   next = input("Welcome! You've entered Level 3! Want to see your opponent? Y or N:")
   for i in next:
       if next == "Y":
-          classes.create_enemies5("Pompompurin", "Bubble Gum Competition", "Enemy", "Infected", 0)
           print("You've come across Pompompurin.")
       else:
           print("Invalid")
@@ -177,7 +175,6 @@ def part4():
   next = input("Welcome! You've entered Level 4! Oh look, its your a friend. Want to see who it is? Y or N:")
   for i in next:
       if next == "Y":
-          classes.create_friends("Keroppi","Cooking", "Friend", "Uninfected", 0)
           print("You've come across Keroppi.")
       else:
           print("Invalid")
@@ -207,7 +204,6 @@ def part5():
   next = input("Welcome! You've entered Level 5! Want to see your opponent? Y or N:")
   for i in next:
       if next == "Y":
-          classes.create_enemies5("Kuromi", "Swimming", "Enemy", "Infected", 0)
           print("You've come across Kuromi.")
       else:
           print("Invalid")
@@ -237,7 +233,6 @@ def part6():
   next = input("Welcome! You've entered Level 6! Want to see your opponent? Y or N:")
   for i in next:
       if next == "Y":
-          classes.create_enemies5("Pochacco", "Bird Nest Making", "Enemy", "Infected", 0)
           print("You've come across Pochacco.")
       else:
           print("Invalid")
@@ -267,7 +262,6 @@ def part7():
   next = input("Welcome! You've entered Level 7! Want to see your opponent? Y or N:")
   for i in next:
       if next == "Y":
-          classes.create_enemies5("Gudetama", "Driving Fast", "Enemy", "Infected", 0)
           print("You've come across Gudetama.")
       else:
           print("Invalid")
@@ -297,7 +291,6 @@ def part8():
   next = input("Welcome! You've entered Level 8! Oh look, its your a friend. Want to see who it is? Y or N:")
   for i in next:
       if next == "Y":
-          classes.create_friends("Tuxedo Sam", "Making Tie", "Friend", "Uninfected", 0)
           print("You've come across Tuxedo Sam.")
       else:
           print("Invalid")
