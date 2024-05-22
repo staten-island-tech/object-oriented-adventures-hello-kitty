@@ -1,6 +1,5 @@
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 import classes
-import characters2
 
 def introduction():
  start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
@@ -111,7 +110,13 @@ def part1():
               exit()
 
     while move_on == "L":
-       characters2.go_on()
+       level_up = input("Do you want to proceed to the next level? Y or N:")
+       if level_up == "Y":
+            print("Great! Let's move on!")
+            return
+       else:
+            print("Invalid")
+            exit()
 
 def part2():
   next = input("Welcome! You've entered Level 2! Want to see your opponent? Y or N:")
@@ -370,8 +375,10 @@ def conclusion():
             return
         elif question == "N":
             print("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
+            exit()
         else:
             print("Invalid")
+            exit()
 
 def restart():
     game_question = input("Do you want to play again?: Y or N:")
@@ -390,6 +397,7 @@ def restart():
             exit()
         elif game_question == "N":
             print("Hope you had a great time. Good bye!")
+            exit()
         else:
             print("Invalid")
             exit()
