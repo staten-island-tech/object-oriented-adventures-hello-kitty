@@ -10,3 +10,7 @@ def middle():
     characters.part7()
     characters.part8()
 middle()
+
+
+
+
