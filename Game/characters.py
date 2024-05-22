@@ -88,7 +88,6 @@ def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
   for i in range(1):
       if next == "Y":
-          classes.create_enemies5("My Melody", "Handstand endurance", "Enemy", "Infected", 0)
           print("You've come across My Melody.")
       else:
           print("Invalid")
