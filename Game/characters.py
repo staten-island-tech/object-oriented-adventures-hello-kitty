@@ -110,11 +110,11 @@ def part1():
               exit()
 
     while move_on == "L":
-       level_up = input("Do you want to proceed to the next level? Y or N:")
-       if level_up == "Y":
+        level_up = input("Do you want to proceed to the next level? Y or N:")
+        if level_up == "Y":
             print("Great! Let's move on!")
             return
-       else:
+        else:
             print("Invalid")
             exit()
 
