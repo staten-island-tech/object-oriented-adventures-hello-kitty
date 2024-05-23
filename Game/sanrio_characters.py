@@ -1,4 +1,4 @@
-#Judy and Olamide
+#Hongzheng and Olamide
 
 character = [{
     'name': "Hello Kitty",
