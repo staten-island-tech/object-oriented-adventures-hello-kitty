@@ -18,7 +18,7 @@ def introduction():
 
        for i in range(1):
          if user_request == "Y":
-             classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 0)
+             classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
          elif user_request == "N":
              exit()
          else:
@@ -29,13 +29,13 @@ def introduction():
          for i in range(1):
              if move_on == "Next":
                  print("Great! Welcome Hello Kitty! You sure are missing your friends.")
-                 print("But, wait! Your friends are not what you expected them to be. You might want to know who they are now. Err...")
+                 print("But, wait! Your friends aren't with you. But don't be sad.")
              else:
                  print("invalid")
                  exit()
   
          while move_on == "Next":
-             request = input("Do you want to add enemies?Y/N: ")
+             request = input("Do you want to add enemies? Y/N: ")
              for i in range(1):
                  if request == "Y":
                      classes.create_enemies5(["My Melody", "Mimmy", "Pompompurin", "Kuromi", "Pochacco", "Gudetama"], ["Handstand endurance", "Karate", "Bubblegum competition", "Swimming", "Bird  Nest  Making", "Driving Fast"],"Enemy", "Infected", 0)
@@ -49,7 +49,7 @@ def introduction():
                  move_on = input("Enter Next:")
                  for i in range(1):
                      if move_on == "Next":
-                         print("Yikes, that's a lot of enemies. But your not alone, a couple of friends are with you. You just won't know who they are.")
+                         print("Yikes, that's a lot of enemies. Don't be afraid, a couple of your friends are with you. You just won't know who they are.")
                      else:
                          print("Invalid")
                          exit()
@@ -75,7 +75,7 @@ def introduction():
                                  exit()
                   
                          while move_on == "Next":
-                             ask = input("Would you like to play the game?:")
+                             ask = input("Would you like to play the game? Please print Y/N:")
                              for i in range(1):
                                  if ask == "Y":
                                      print("Let's begin!")
