@@ -19,6 +19,7 @@ def introduction():
          if user_request == "Y":
              classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
          elif user_request == "N":
+             print("Adios!")
              exit()
          else:
              print("Invalid")
@@ -40,6 +41,7 @@ def introduction():
                      print("Well... it looks like you won't know who they are... Sorry!")
                      print("But your not alone, a couple of friends are with you.")
                  elif user_request == "N":
+                     print("Sucks to be you, huh?")
                      exit()
                  else:
                      print("Invalid")
@@ -60,6 +62,7 @@ def introduction():
                          if ask_request == "Y":
                              print("Looks like you won't know them either. What a bother!")
                          elif ask_request == "N":
+                             print("Aw-man!")
                              exit()
                          else:
                              print("Invalid")
