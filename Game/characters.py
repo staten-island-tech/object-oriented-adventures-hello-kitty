@@ -44,7 +44,6 @@ def introduction():
                  else:
                      print("Invalid")
                      exit()
-<<<<<<< HEAD
   
              while request == "Y":
                  move_on = input("Enter Next:")
@@ -54,8 +53,6 @@ def introduction():
                      else:
                          print("Invalid")
                          exit()
-=======
->>>>>>> 17f5e2bf516c5cc19955af1911f7af2b9aa1761d
       
                  while move_on == "Next":
                      ask_request = input("Do you want to add friends? Y/N: ")
@@ -78,11 +75,7 @@ def introduction():
                                  exit()
                   
                          while move_on == "Next":
-<<<<<<< HEAD
                              ask = input("Would you like to play the game? Please print Y/N:")
-=======
-                             ask = input("Would you like to play the game?: Y or N:")
->>>>>>> 17f5e2bf516c5cc19955af1911f7af2b9aa1761d
                              for i in range(1):
                                  if ask == "Y":
                                      print("Let's begin!")
