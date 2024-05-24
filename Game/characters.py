@@ -6,7 +6,7 @@ def introduction():
  start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
  for i in range(1):
      if start == "Y":
-         print(narration)
+         print(narration) 
      elif start == "N":
          print("Exit terminal.")
          exit()
@@ -25,7 +25,7 @@ def introduction():
              print("Invalid")
              exit()
        while user_request == "Y":
-         move_on.lower = input("Enter Next:")
+         move_on = input("Enter Next:")
          for i in range(1):
              if move_on == "Next":
                  print("Great! Welcome Hello Kitty! You sure are missing your friends.")
@@ -34,7 +34,7 @@ def introduction():
                  print("invalid")
                  exit()
   
-         while move_on.lower == "Next":
+         while move_on == "Next":
              request = input("Do you want to add enemies?Y/N: ")
              for i in range(1):
                  if request == "Y":
