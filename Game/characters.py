@@ -1,7 +1,7 @@
 #Afsheen
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 import classes
-import characters2
+import characters2 
 
 def introduction():
  start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
@@ -20,25 +20,26 @@ def introduction():
          if user_request == "Y":
              classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 0)
          elif user_request == "N":
+             print("Aww I hope you can next time. :(")
              exit()
          else:
              print("Invalid")
              exit()
        while user_request == "Y":
-         move_on = input("Enter Next:")
+         move_on = input("Enter Next (make sure to capitalize the N!!!):")
          for i in range(1):
              if move_on == "Next":
-                 print("Great! Welcome Hello Kitty! You sure are missing your friends.")
-                 print("But, wait! Your friends are not what you expected them to be. You might want to know who they are now. Err...")
+                 print("Great! Welcome Hello Kitty! You might be missing your friend right now.")
+                 print("But, wait! They aren't answering their calls. You might want to see hang out with them.")
              else:
                  print("invalid")
                  exit()
   
          while move_on == "Next":
-             request = input("Do you want to add enemies?Y/N: ")
+             request = input("Do you want to add enemies? Y/N: ")
              for i in range(1):
                  if request == "Y":
-                     print("Well... it looks like you won't know who they are... Sorry!")
+                     print("Be ware not all of your friends ")
                      print("But your not alone, a couple of friends are with you.")
                  elif user_request == "N":
                      exit()
@@ -50,7 +51,7 @@ def introduction():
                      ask_request = input("Do you want to add friends? Y/N: ")
                      for i in range(1):
                          if ask_request == "Y":
-                             print("Looks like you won't know them either. What a bother!")
+                             print("Looks like you won't know them either. ¯\_(ツ)_/¯")
                          elif ask_request == "N":
                              exit()
                          else:
@@ -58,10 +59,10 @@ def introduction():
                              exit()
 
                      while ask_request == "Y":
-                         move_on = input("Enter Next:")
+                         move_on = input("Enter Next (uppercase the N!! ಠ_ಠ):")
                          for i in range(1):
                              if move_on == "Next":
-                                 print("Great. Now that your familiar with what is expected ahead of you.")
+                                 print("Great. Now that your familiar with what is expected ahead of you. ˶ᵔ ᵕ ᵔ˶")
                              else:
                                  print("Invalid")
                                  exit()
