@@ -21,7 +21,7 @@ def introduction():
          elif user_request == "N":
              exit()
          else:
-             print("Invalid")
+             print("Adios!")
              exit()
        while user_request == "Y":
          move_on = input("Enter Next:")
@@ -42,7 +42,7 @@ def introduction():
                  elif user_request == "N":
                      exit()
                  else:
-                     print("Invalid")
+                     print("Oh well, see ya later!")
                      exit()
       
                  while move_on == "Next":
@@ -53,7 +53,7 @@ def introduction():
                          elif ask_request == "N":
                              exit()
                          else:
-                             print("Invalid")
+                             print("Aw man, come on!")
                              exit()
 
                      while ask_request == "Y":
@@ -72,7 +72,7 @@ def introduction():
                                      print("Let's begin!")
                                      return
                                  else:
-                                     print("Invalid")
+                                     print("Bye-bye!")
                                      exit()
 
 def part1():
