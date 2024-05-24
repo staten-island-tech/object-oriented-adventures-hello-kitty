@@ -17,4 +17,4 @@ class Game:
     def end():
         characters.conclusion()
         characters.restart()
-    end()
+    end() 
