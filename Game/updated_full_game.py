@@ -20,4 +20,9 @@ class Game:
     def end():
         characters.conclusion()
         characters.restart()
+<<<<<<< HEAD
     end()
+=======
+    end()
+    
+>>>>>>> Hongzheng-Wu
