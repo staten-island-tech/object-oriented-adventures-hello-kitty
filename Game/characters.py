@@ -9,7 +9,7 @@ def introduction():
  start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
  for i in range(1):
      if start == "Y":
-         print(narration)
+         print(narration) 
      elif start == "N":
          print("Exit terminal.")
          exit()
