@@ -43,13 +43,8 @@ def introduction():
                  if request == "Y":
                      print("Well... it looks like you won't know who they are... Sorry!")
                      print("But your not alone, a couple of friends are with you.")
-<<<<<<< HEAD
-                 elif user_request == "N": 
-                     print("Sorry, you can not move on. ˙◠˙")
-=======
                  elif user_request == "N":
                      print("Sorry, you can’t move on.")
->>>>>>> 859a98e6b80162ac939e7b87340954b373f9c596
                      exit()
                  else:
                      print("Invalid")
@@ -78,11 +73,7 @@ def introduction():
 
 
                      while ask_request == "Y":
-<<<<<<< HEAD
-                         move_on = input("Enter Next (uppercase the N!!) ಠ_ಠ):")
-=======
                          move_on = input("Enter Next:")
->>>>>>> 859a98e6b80162ac939e7b87340954b373f9c596
                          for i in range(1):
                              if move_on == "Next":
                                  print("Great. Now that your familiar with what is expected ahead of you.")
@@ -91,11 +82,7 @@ def introduction():
                                  exit()
                   
                          while move_on == "Next":
-<<<<<<< HEAD
-                             ask = input("Would you like to play the game ¿? Y or N:")
-=======
                              ask = input("Would you like to play the game? Please print Y/N:")
->>>>>>> 859a98e6b80162ac939e7b87340954b373f9c596
                              for i in range(1):
                                  if ask == "Y":
                                      print("Well, let's begin!")
@@ -442,10 +429,5 @@ def restart():
             print("Hope you had a great time. Good bye!")
             exit()
         else:
-<<<<<<< HEAD
-            print("Invalid ʚɞ")
-            exit()
-=======
             print("Invalid")
             exit()
->>>>>>> 859a98e6b80162ac939e7b87340954b373f9c596
