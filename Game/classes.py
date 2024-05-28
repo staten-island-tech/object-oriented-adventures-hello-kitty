@@ -1,3 +1,4 @@
+#Hongzheng
 import uuid
 class characters:
   def __init__(self, name, skill, type, health):
@@ -27,11 +28,13 @@ main_characters= []
 all_friends= []
 all_enemies= []
 
+
 def create_main(name, skill, type, main, health):
  new_main = Main_characters(name, skill, type, main, health)
  main_characters.append(new_main)
  for characters in main_characters:
      print(characters)
+
 
 def create_friends(name, skill,type, status1, health):
  new_friends = friends_lst(name, skill, type, status1, health)
@@ -39,13 +42,16 @@ def create_friends(name, skill,type, status1, health):
  for friends in all_friends:
      print(friends)
 
+
 def create_enemies5(name, skill, type, status2, health):
  new_enemies = enemies_lst(name, skill, type, status2, health)
  all_enemies.append(new_enemies)
  for enemies in all_enemies:
      print(enemies)
 
+
 user_request ="Y"
+
 
 def check_stat(stat): #This checks the status to see if the user put Y or not.
  if stat.upper == "Y":
