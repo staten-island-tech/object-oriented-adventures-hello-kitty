@@ -17,9 +17,5 @@ class Game:
     def end():
         characters.conclusion()
         characters.restart()
-<<<<<<< Updated upstream
-    end() 
-=======
     end()
     
->>>>>>> Stashed changes
