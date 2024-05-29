@@ -12,8 +12,8 @@ def introduction():
  else:
     print("Invalid")
     exit()
+
  while True:
-    
        user_request = input("Do you want to see the main character? Y/N: ")
        for i in range(1):
          if user_request == "Y":
