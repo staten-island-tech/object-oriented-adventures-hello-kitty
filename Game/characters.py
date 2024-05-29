@@ -13,9 +13,7 @@ def introduction():
     print("Invalid")
     exit()
 
- while True:
-    pass
- 
+ while start == "Y":
     user_request = input("Do you want to see the main character? Y/N: ")
     if user_request == "Y":
         classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
@@ -26,68 +24,61 @@ def introduction():
         print("Invalid")
         exit()
 
-    while True:
+    while user_request == "Y":
          move_on = input("Enter Next:")
-         for i in range(1):
-             if move_on == "Next":
-                 print("Great! Welcome Hello Kitty! You sure are missing your friends.")
-                 print("But, wait! Your friends aren't with you. But don't be sad.")
-             else:
-                 print("invalid")
-                 exit()
+         if move_on == "Next":
+            print("Great! Welcome Hello Kitty! You sure are missing your friends.")
+            print("But, wait! Your friends aren't with you. But don't be sad.")
+         else:
+            print("invalid")
+            exit()
   
          while move_on == "Next":
              request = input("Do you want to add enemies? Y/N: ")
-             for i in range(1):
-                 if request == "Y":
-                     print("Well... it looks like you won't know who they are... Sorry!")
-                     print("But your not alone, a couple of friends are with you.")
-                 elif user_request == "N":
-                     print("Oh well, see ya later!")
-                     exit()
-                 else:
-                     print("Invalid")
-                     exit()
+             if request == "Y":
+                print("Well... it looks like you won't know who they are... Sorry!")
+                print("But your not alone, a couple of friends are with you.")
+             elif user_request == "N":
+                print("Oh well, see ya later!")
+                exit()
+             else:
+                print("Invalid")
+                exit()
   
              while request == "Y":
                  move_on = input("Enter Next:")
-                 for i in range(1):
-                     if move_on == "Next":
-                         print("Yikes, that's a lot of enemies. Don't be afraid, a couple of your friends are with you. You just won't know who they are.")
-                     else:
-                         print("Invalid")
-                         exit()
+                 if move_on == "Next":
+                    print("Yikes, that's a lot of enemies. Don't be afraid, a couple of your friends are with you. You just won't know who they are.")
+                 else:
+                    print("Invalid")
+                    exit()
       
                  while move_on == "Next":
                      ask_request = input("Do you want to add friends? Y/N: ")
-                     for i in range(1):
-                         if ask_request == "Y":
-                             print("Looks like you won't know them either. What a bother!")
-                         elif ask_request == "N":
-                             print("Aw-man!")
-                             exit()
-                         else:
-                             print("Invalid")
-                             exit()
+                     if ask_request == "Y":
+                        print("Looks like you won't know them either. What a bother!")
+                     elif ask_request == "N":
+                        print("Aw-man!")
+                        exit()
+                     else:
+                        print("Invalid")
+                        exit()
 
                      while ask_request == "Y":
                          move_on = input("Enter Next:")
-                         for i in range(1):
-                             if move_on == "Next":
-                                 print("Great. Now that your familiar with what is expected ahead of you.")
-                             else:
-                                 print("Invalid")
-                                 exit()
+                         if move_on == "Next":
+                            print("Great. Now that your familiar with what is expected ahead of you.")
+                         else:
+                            print("Invalid")
+                            exit()
                   
                          while move_on == "Next":
                              ask = input("Would you like to play the game? Please print Y/N:")
-                             for i in range(1):
-                                 if ask == "Y":
-                                     print("Let's begin!")
-                                     return
-                                 else:
-                                     print("Invalid")
-                                     exit()
+                             if ask == "Y":
+                                print("Let's begin!")
+                             else:
+                                print("Invalid")
+                                exit()
 
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
