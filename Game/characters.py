@@ -98,9 +98,9 @@ def part1():
         print("You have successfully made through Level 1, with an addition of a solute for yout potion!")
     else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
+        again = input("Do you want to play again?: Yes or No:")
         if again == "Yes":
-            ()
+            continue
         else:
             print("Good Bye!")
             exit()
@@ -125,7 +125,7 @@ def part2():
         print("You have successfully made through Level 2, with an addition of a solvent for your potion!")
     else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
+        again = input("Do you want to play again?: Yes or No:")
         if again == "Yes":
             continue
         else:
@@ -152,7 +152,7 @@ def part3():
         print("You have successfully made through Level 3, with an addition of Magic Rocks!")
    else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
+        again = input("Do you want to play again?: Yes or No:")
         if again == "Yes":
             continue
         else:
@@ -180,7 +180,7 @@ def part4():
           print("You have successfully made through Level 4, with an addition of a Magic Map of the forest!")
    else:
           print("Invalid")
-          again = input("Do you want to start all over again?: Yes or No:")
+          again = input("Do you want to play again?: Yes or No:")
           if again == "Yes":
             continue
           else:
@@ -207,7 +207,7 @@ def part5():
         print("You have successfully made through Level 5, with an addition of a Magic Bag!")
    else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
+        again = input("Do you want to play again?: Yes or No:")
         if again == "Yes":
             continue
         else:
@@ -234,7 +234,7 @@ def part6():
         print("You have successfully made through Level 6, with an addition of a bottle for your potion!")
    else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
+        again = input("Do you want to play again?: Yes or No:")
         if again == "Yes":
             continue
         else:
@@ -261,7 +261,7 @@ def part7():
         print("You have successfully made through Level 7, with an addtion of a Recipe Book!")
    else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
+        again = input("Do you want to play again?: Yes or No:")
         if again == "Yes":
             continue
         else:
@@ -289,7 +289,7 @@ def part8():
         print("You have successfully made through Level 8, with an addtion of Fairy Dust!")
    else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
+        again = input("Do you want to play again?: Yes or No:")
         if again == "Yes":
             continue
         else:
