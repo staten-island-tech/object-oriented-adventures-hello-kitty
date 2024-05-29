@@ -76,6 +76,7 @@ def introduction():
                              ask = input("Would you like to play the game? Please print Y/N:")
                              if ask == "Y":
                                 print("Let's begin!")
+                                break
                              else:
                                 print("Invalid")
                                 exit()
