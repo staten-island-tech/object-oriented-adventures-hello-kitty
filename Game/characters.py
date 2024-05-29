@@ -4,16 +4,16 @@ import characters2
 
 def introduction():
  start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
- for i in range(1):
-     if start == "Y":
-         print(narration)
-     elif start == "N":
-         print("Exit terminal.")
-         exit()
-     else:
-         print("Invalid")
-         exit()
- while start == "Y":
+ if start == "Y":
+        print(narration)
+ elif start == "N":
+        print("Exit terminal.")
+        exit()
+ else:
+        print("Invalid")
+        exit()
+        
+ while True:
        user_request = input("Do you want to see the main character? Y/N: ")
        for i in range(1):
          if user_request == "Y":
@@ -85,7 +85,7 @@ def part1():
           print("Invalid")
           exit()
 
-  while next == "Y":
+  while True:
     move_on = input("My Melody does a handstand for 20 minutes. How long would you do one?: 25 minutes?(L) or 20 minutes(R):")
     for i in range(1):
       if move_on == "L":
