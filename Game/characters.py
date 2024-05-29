@@ -14,17 +14,19 @@ def introduction():
     exit()
 
  while True:
-       user_request = input("Do you want to see the main character? Y/N: ")
-       for i in range(1):
-         if user_request == "Y":
-             classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
-         elif user_request == "N":
-             print("Adios!")
-             exit()
-         else:
-             print("Invalid")
-             exit()
-       while user_request == "Y":
+    pass
+ 
+    user_request = input("Do you want to see the main character? Y/N: ")
+    if user_request == "Y":
+        classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
+    elif user_request == "N":
+        print("Adios!")
+        exit()
+    else:
+        print("Invalid")
+        exit()
+
+    while True:
          move_on = input("Enter Next:")
          for i in range(1):
              if move_on == "Next":
