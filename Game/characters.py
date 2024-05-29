@@ -82,13 +82,12 @@ def introduction():
 
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
-  for i in range(1):
-      if next == "Y":
-          classes.create_enemies5("My Melody", "Handstand endurance", "Enemy", "Infected", 0)
-          print("You've come across My Melody.")
-      else:
-          print("Invalid")
-          exit()
+  if next == "Y":
+    classes.create_enemies5("My Melody", "Handstand endurance", "Enemy", "Infected", 0)
+    print("You've come across My Melody.")
+  else:
+    print("Invalid")
+    exit()
 
   while next == "Y":
     move_on = input("My Melody does a handstand for 20 minutes. How long would you do one?: 25 minutes?(L) or 20 minutes(R):")
