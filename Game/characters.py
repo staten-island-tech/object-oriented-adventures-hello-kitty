@@ -76,7 +76,6 @@ def introduction():
                              ask = input("Would you like to play the game? Please print Y/N:")
                              if ask == "Y":
                                 print("Let's begin!")
-                                break
                              else:
                                 print("Invalid")
                                 exit()
@@ -110,30 +109,28 @@ def part1():
 
 def part2():
   next = input("Welcome! You've entered Level 2! Want to see your opponent? Y or N:")
-  for i in range(1):
-      if next == "Y":
-          classes.create_enemies5("Mimmy", "Swimming", "Enemy", "Infected", 0)
-          print("You've come across Mimmy.")
-      else:
-          print("Invalid")
-          exit()
+  if next == "Y":
+    classes.create_enemies5("Mimmy", "Swimming", "Enemy", "Infected", 0)
+    print("You've come across Mimmy.")
+  else:
+    print("Invalid")
+    exit()
 
   while next == "Y":
     move_on = input("Mimmy does karate for 10 minutes. How long would you do one?: 50 minutes?(L) or 20 minutes(R):")
-    for i in range(1):
-      if move_on == "L":
-          classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 30)
-          print("You have successfully made through Level 2, with an addition of a solvent for your potion!")
-      else:
-          print("Invalid")
-          again = input("Do you want to start all over again?: Yes or No:")
-          if again == "Yes":
-              introduction()
-              part1()
-              part2()
-          else:
-              print("Good Bye!")
-              exit()
+    if move_on == "L":
+        classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 30)
+        print("You have successfully made through Level 2, with an addition of a solvent for your potion!")
+    else:
+        print("Invalid")
+        again = input("Do you want to start all over again?: Yes or No:")
+        if again == "Yes":
+            introduction()
+            part1()
+            part2()
+        else:
+            print("Good Bye!")
+            exit()
 
     while move_on == "L":
       characters2.go_on()
