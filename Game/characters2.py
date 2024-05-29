@@ -6,3 +6,11 @@ def go_on():
     else:
           print("Invalid")
           exit()
+
+def restart():
+   again = input("Do you want to start all over again?: Yes or No:")
+   if again == "Yes":
+      return
+   else:
+      print("Good Bye!")
+      exit()
