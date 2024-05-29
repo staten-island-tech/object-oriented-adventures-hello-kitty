@@ -119,12 +119,7 @@ def part2():
         print("You have successfully made through Level 2, with an addition of a solvent for your potion!")
     else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
-        if again == "Yes":
-            continue
-        else:
-            print("Good Bye!")
-            exit()
+        characters2.restart()
 
     while move_on == "L":
       characters2.go_on()
@@ -146,12 +141,7 @@ def part3():
         print("You have successfully made through Level 3, with an addition of Magic Rocks!")
    else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
-        if again == "Yes":
-            continue
-        else:
-            print("Good Bye!")
-            exit()
+        characters2.restart()
 
    while move_on == "R":
       characters2.go_on()
@@ -174,12 +164,7 @@ def part4():
           print("You have successfully made through Level 4, with an addition of a Magic Map of the forest!")
    else:
           print("Invalid")
-          again = input("Do you want to start all over again?: Yes or No:")
-          if again == "Yes":
-              continue
-          else:
-              print("Good Bye!")
-              exit()
+          characters2.restart()
 
    while move_on == "R":
       characters2.go_on()
@@ -201,12 +186,7 @@ def part5():
         print("You have successfully made through Level 5, with an addition of a Magic Bag!")
    else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
-        if again == "Yes":
-            continue
-        else:
-            print("Good Bye!")
-            exit()
+        characters2.restart()
 
    while move_on == "R":
       characters2.go_on()
@@ -228,12 +208,7 @@ def part6():
         print("You have successfully made through Level 6, with an addition of a bottle for your potion!")
    else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
-        if again == "Yes":
-              continue
-        else:
-            print("Good Bye!")
-            exit()
+        characters2.restart()
 
    while move_on == "L":
       characters2.go_on()
@@ -255,12 +230,7 @@ def part7():
         print("You have successfully made through Level 7, with an addtion of a Recipe Book!")
    else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
-        if again == "Yes":
-            continue
-        else:
-            print("Good Bye!")
-            exit()
+        characters2.restart()
 
    while move_on == "L":
       characters2.go_on()
@@ -283,12 +253,7 @@ def part8():
         print("You have successfully made through Level 8, with an addtion of Fairy Dust!")
    else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
-        if again == "Yes":
-              continue
-        else:
-            print("Good Bye!")
-            exit()
+        characters2.restart()
 
    while move_on == "L":
       move = input("Great Job! You have collected all the neccesary items for your potion. Do you want to start making the potion?: Y or N:")
