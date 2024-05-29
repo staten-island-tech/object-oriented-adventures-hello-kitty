@@ -21,4 +21,3 @@ class Game:
         characters.conclusion()
         characters.restart()
     end()
-    
