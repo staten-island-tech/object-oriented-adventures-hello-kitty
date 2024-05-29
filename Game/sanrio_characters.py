@@ -1,3 +1,5 @@
+#Hongzheng and Olamide
+
 character = [{
     'name': "Hello Kitty",
     'skill': "collecting items",

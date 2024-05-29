@@ -4,7 +4,7 @@ import characters2
 
 
 def introduction():
- start = (input("Do you wish to start a Sanrio memory game? ˶ᵔ ᵕ ᵔ˶ Y/N: "))
+ start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
  for i in range(1):
      if start == "Y":
          print(narration)
@@ -34,7 +34,7 @@ def introduction():
              else:
                  print("invalid")
                  exit()
- 
+  
          while move_on == "Next":
              request = input("Do you want to add enemies? Y/N: ")
              for i in range(1):
@@ -42,12 +42,12 @@ def introduction():
                      print("Well... it looks like you won't know who they are... Sorry!")
                      print("But your not alone, a couple of friends are with you.")
                  elif user_request == "N":
-                     print("Sorry, you can not move on.")
+                     print("Sorry, you can’t move on.")
                      exit()
                  else:
                      print("Invalid")
                      exit()
- 
+  
              while request == "Y":
                  move_on = input("Enter Next:")
                  for i in range(1):
@@ -56,7 +56,7 @@ def introduction():
                      else:
                          print("Invalid")
                          exit()
-     
+      
                  while move_on == "Next":
                      ask_request = input("Do you want to add friends? Y/N: ")
                      for i in range(1):
@@ -70,8 +70,6 @@ def introduction():
                              exit()
 
 
-
-
                      while ask_request == "Y":
                          move_on = input("Enter Next:")
                          for i in range(1):
@@ -80,7 +78,7 @@ def introduction():
                              else:
                                  print("Invalid")
                                  exit()
-                 
+                  
                          while move_on == "Next":
                              ask = input("Would you like to play the game? Please print Y/N:")
                              for i in range(1):
@@ -92,8 +90,6 @@ def introduction():
                                      exit()
 
 
-
-
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
   for i in range(1):
@@ -103,8 +99,6 @@ def part1():
       else:
           print("Invalid")
           exit()
-
-
 
 
   while next == "Y":
@@ -121,11 +115,11 @@ def part1():
           else:
               print("Good Bye!")
               exit()
+
+
     while move_on == "L":
         characters2.go_on()
         return
-
-
 
 
 def part2():
@@ -133,12 +127,10 @@ def part2():
   for i in range(1):
       if next == "Y":
           classes.create_enemies5("Mimmy", "Swimming", "Enemy", "Infected", 0)
-          print("You've come across Mimmy ◝(ᵔᵕᵔ)◜.")
+          print("You've come across Mimmy.")
       else:
           print("Invalid")
           exit()
-
-
 
 
   while next == "Y":
@@ -146,10 +138,10 @@ def part2():
     for i in range(1):
       if move_on == "L":
           classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 30)
-          print("You have successfully made through Level 2, with an addition of a solvent for your potion! -`♡´-")
+          print("You have successfully made through Level 2, with an addition of a solvent for your potion!")
       else:
           print("Invalid")
-          again = input("Do you want to start all over again?: ¯\_(ツ)_/¯ Yes or No:")
+          again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
               introduction()
               part1()
@@ -159,13 +151,9 @@ def part2():
               exit()
 
 
-
-
     while move_on == "L":
       characters2.go_on()
       return
-
-
 
 
 def part3():
@@ -173,12 +161,10 @@ def part3():
   for i in next:
       if next == "Y":
           classes.create_enemies5("Pompompurin", "Bubble Gum Competition", "Enemy", "Infected", 0)
-          print("You've come across Pompompurin. ヾ(＾∇＾)")
+          print("You've come across Pompompurin.")
       else:
           print("Invalid")
           exit()
-
-
 
 
   while next == "Y":
@@ -189,24 +175,20 @@ def part3():
           print("You have successfully made through Level 3, with an addition of Magic Rocks!")
       else:
           print("Invalid")
-          again = input("Do you want to start all over again?: ╮ (. ❛ ᴗ ❛.) ╭ Yes or No:")
+          again = input("Do you want to start all over again?: Yes or No:")
           if again == "Yes":
               introduction()
               part1()
               part2()
               part3()
           else:
-              print("Good Bye! ")
+              print("Good Bye!")
               exit()
-
-
 
 
    while move_on == "R":
       characters2.go_on()
       return
-
-
 
 
 def part4():
@@ -218,8 +200,6 @@ def part4():
       else:
           print("Invalid")
           exit()
-
-
 
 
   while next == "Y":
@@ -243,13 +223,9 @@ def part4():
               exit()
 
 
-
-
    while move_on == "R":
       characters2.go_on()
       return
-
-
 
 
 def part5():
@@ -263,14 +239,12 @@ def part5():
           exit()
 
 
-
-
   while next == "Y":
    move_on = input("Kuromi swims to the other end of a river in 35 minutes. How long would you do one?: 30 minutes?(R) or 40 minutes(L):")
    for i in range(1):
       if move_on == "R":
           classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 75)
-          print("Yippee!! You have successfully made through Level 5, with an addition of a Magic Bag! ٩(ˊᗜˋ*)و ♡ ")
+          print("You have successfully made through Level 5, with an addition of a Magic Bag!")
       else:
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
@@ -286,13 +260,9 @@ def part5():
               exit()
 
 
-
-
    while move_on == "R":
       characters2.go_on()
       return
-
-
 
 
 def part6():
@@ -300,12 +270,10 @@ def part6():
   for i in next:
       if next == "Y":
           classes.create_enemies5("Pochacco", "Bird Nest Making", "Enemy", "Infected", 0)
-          print("Hmm...you have come across Pochacco. ❀")
+          print("You've come across Pochacco.")
       else:
           print("Invalid")
           exit()
-
-
 
 
   while next == "Y":
@@ -330,13 +298,9 @@ def part6():
               exit()
 
 
-
-
    while move_on == "L":
       characters2.go_on()
       return
-
-
 
 
 def part7():
@@ -348,8 +312,6 @@ def part7():
       else:
           print("Invalid")
           exit()
-
-
 
 
   while next == "Y":
@@ -375,13 +337,9 @@ def part7():
               exit()
 
 
-
-
    while move_on == "L":
       characters2.go_on()
       return
-
-
 
 
 def part8():
@@ -393,8 +351,6 @@ def part8():
       else:
           print("Invalid")
           exit()
-
-
 
 
   while next == "Y":
@@ -422,8 +378,6 @@ def part8():
               exit()
 
 
-
-
    while move_on == "L":
       move = input("Great Job! You have collected all the necessary items for your potion. Do you want to start making the potion?: Y or N:")
       if move == "Y":
@@ -434,13 +388,9 @@ def part8():
           exit()
 
 
-
-
 narrator = ("You have obtained all necessary materials to save your friends.")
 ending = ("You poured the solution, solute, and fairy dust into the magic bottle for the potion. After you mixed the solution with a branch, put the cork on top and shook it, then you  laid out the magic map and held it in place with magic rocks. Finally, the magic potion was poured on to the magic map and all of your friends were cured from the illness.")
 congrats = ("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
-
-
 
 
 def conclusion():
@@ -455,8 +405,6 @@ def conclusion():
         else:
             print("Invalid")
             exit()
-
-
 
 
 def restart():

@@ -1,0 +1,6 @@
+#Hongzheng
+import characters 
+
+def intro():
+    characters.introduction()
+intro()
