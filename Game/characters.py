@@ -42,7 +42,7 @@ def introduction():
                      print("Well... it looks like you won't know who they are... Sorry!")
                      print("But your not alone, a couple of friends are with you.")
                  elif user_request == "N":
-                     print("Sorry, you can’t move on.")
+                     print("Sorry, you can not move on. ˙◠˙")
                      exit()
                  else:
                      print("Invalid")
