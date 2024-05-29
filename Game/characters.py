@@ -91,18 +91,17 @@ def part1():
 
   while next == "Y":
     move_on = input("My Melody does a handstand for 20 minutes. How long would you do one?: 25 minutes?(L) or 20 minutes(R):")
-    for i in range(1):
-      if move_on == "L":
-          classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 15)
-          print("You have successfully made through Level 1, with an addition of a solute for yout potion!")
-      else:
-          print("Invalid")
-          again = input("Do you want to start all over again?: Yes or No:")
-          if again == "Yes":
-              introduction()
-          else:
-              print("Good Bye!")
-              exit()
+    if move_on == "L":
+        classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 15)
+        print("You have successfully made through Level 1, with an addition of a solute for yout potion!")
+    else:
+        print("Invalid")
+        again = input("Do you want to start all over again?: Yes or No:")
+        if again == "Yes":
+            continue
+        else:
+            print("Good Bye!")
+            exit()
 
     while move_on == "L":
         characters2.go_on()
