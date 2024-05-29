@@ -90,7 +90,7 @@ def part1():
     print("Invalid")
     exit()
 
-  while True:
+  while next == "Y":
     move_on = input("My Melody does a handstand for 20 minutes. How long would you do one?: 25 minutes?(L) or 20 minutes(R):")
     if move_on == "L":
         classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 15)
