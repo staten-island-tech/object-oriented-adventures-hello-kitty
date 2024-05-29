@@ -97,12 +97,7 @@ def part1():
         print("You have successfully made through Level 1, with an addition of a solute for yout potion!")
     else:
         print("Invalid")
-        again = input("Do you want to start all over again?: Yes or No:")
-        if again == "Yes":
-            return
-        else:
-            print("Good Bye!")
-            exit()
+        characters2.restart()
 
     while move_on == "L":
         characters2.go_on()

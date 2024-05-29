@@ -8,9 +8,10 @@ def go_on():
           exit()
 
 def restart():
+  for i in range():
    again = input("Do you want to start all over again?: Yes or No:")
    if again == "Yes":
-      return
+      continue
    else:
       print("Good Bye!")
       exit()
