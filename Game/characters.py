@@ -3,37 +3,38 @@ import classes
 import characters2
 
 def introduction():
- start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
- if start == "Y":
+  start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
+  if start == "Y":
     print(narration)
- elif start == "N":
+  elif start == "N":
     print("Exit terminal.")
     exit()
- else:
+  else:
     print("Invalid")
     exit()
 
- while start == "Y":
+  while start == "Y":
     user_request = input("Do you want to see the main character? Y/N: ")
-    if user_request == "Y":
+    for i in range(1):
+      if user_request == "Y":
         classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
-    elif user_request == "N":
+      elif user_request == "N":
         print("Adios!")
         exit()
-    else:
+      else:
         print("Invalid")
         exit()
 
-    while user_request == "Y":
-         move_on = input("Enter Next:")
-         if move_on == "Next":
+  while user_request == "Y":
+        move_on = input("Enter Next:")
+        if move_on == "Next":
             print("Great! Welcome Hello Kitty! You sure are missing your friends.")
             print("But, wait! Your friends aren't with you. But don't be sad.")
-         else:
+        else:
             print("invalid")
             exit()
   
-         while move_on == "Next":
+        while move_on == "Next":
              request = input("Do you want to add enemies? Y/N: ")
              if request == "Y":
                 print("Well... it looks like you won't know who they are... Sorry!")
@@ -320,3 +321,17 @@ def conclusion():
         else:
             print("Invalid")
             exit()
+while True:
+  introduction()
+  part1()
+  part2()
+  part3()
+  part4()
+  part5()
+  part6()
+  part7()
+  part8()
+  conclusion()
+  again = input("Do you want to start all over again?: Yes or No:")
+  if again == "No":
+     break
