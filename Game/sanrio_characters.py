@@ -9,7 +9,7 @@ Enemies = [{
     'skill' : "handstand endurance",  #Hello Kitty has to deafeat her in a handstand competition
     'type' : "enemy",
 },{
-    'name' : "Mimmy",           #Hello Kitty has to deaft her in a karate fight
+    'name' : "Mimmy",           #Hello Kitty has to defeat her in a karate fight
     'skill' : "karate",
     'type'  : "enemy",
 }, {
@@ -26,7 +26,7 @@ Enemies = [{
     'type': "enemy", 
 }, {
     'name': "Tuxedo Sam",                 #they have a competitoon on how can tie 
-    'skill': "",
+    'skill': "Making Tie",
     'type': "friend",
 },{
     'name': "Pochacco",           #bird nest making competiton
