@@ -1,5 +1,4 @@
 #Afsheen
-
 import characters
 
 class Game:
@@ -19,6 +18,5 @@ class Game:
 
     def end():
         characters.conclusion()
-        characters.restart()
     end()
     
