@@ -4,51 +4,47 @@ import characters2
 
 
 def introduction():
- start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
- for i in range(1):
-     if start == "Y":
+    start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
+    if start == "Y":
          print(narration)
-     elif start == "N":
+    elif start == "N":
          print("Exit terminal.")
          exit()
-     else:
+    else:
          print("Invalid")
          exit()
- while start == "Y":
-       user_request = input("Do you want to see the main character? Y/N: ")
-       for i in range(1):
-         if user_request == "Y":
+    while start == "Y":
+        user_request = input("Do you want to see the main character? Y/N: ")
+        if user_request == "Y":
              classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
-         elif user_request == "N":
+        elif user_request == "N":
              print("Aww I hope you can next time. :(")
              exit()
-         else:
+        else:
              print("Invalid")
              exit()
-       while user_request == "Y":
-         move_on = input("Enter Next (make sure to capitalize the N!!!):")
-         for i in range(1):
-             if move_on == "Next":
+        while user_request == "Y":
+            move_on = input("Enter Next (make sure to capitalize the N!!!):")
+            if move_on == "Next":
                  print("Great! Welcome Hello Kitty! You might be missing your friend right now.")
                  print("But, wait! They aren't answering their calls. Hmm, you might want to hang out with them.")
-             else:
+            else:
                  print("invalid")
                  exit()
   
-         while move_on == "Next":
-             request = input("Do you want to add enemies? Y/N: ")
-             for i in range(1):
-                 if request == "Y":
+        while move_on == "Next":
+            request = input("Do you want to add enemies? Y/N: ")
+            if request == "Y":
                      print("Well... it looks like you won't know who they are... Sorry!")
                      print("But your not alone, a couple of friends are with you.")
-                 elif user_request == "N":
+            elif user_request == "N":
                      print("Sorry, you can not move on. ˙◠˙")
                      exit()
-                 else:
+            else:
                      print("Invalid")
                      exit()
   
-             while request == "Y":
+            while request == "Y":
                  move_on = input("Enter Next:")
                  for i in range(1):
                      if move_on == "Next":
@@ -161,8 +157,16 @@ def part3():
           classes.create_enemies5("Pompompurin", "Bubble Gum Competition", "Enemy", "Infected", 0)
           print("You've come across Pompompurin.")
       else:
-          print("Invalid")
-          exit()
+        print("Invalid")
+        again = input("Do you want to start all over again?: Yes or No:")
+        if again == "Yes":
+              introduction()
+              part1()
+              part2()
+        else:
+              print("Good Bye!")
+              exit()
+          
 
 
   while next == "Y":
