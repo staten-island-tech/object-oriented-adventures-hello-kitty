@@ -35,6 +35,7 @@ def introduction():
   
          while move_on == "Next":
              request = input("Do you want to add enemies? Y/N: ")
+<<<<<<< HEAD
              if request == "Y":
                 print("Well... it looks like you won't know who they are... Sorry!")
                 print("But your not alone, a couple of friends are with you.")
@@ -44,6 +45,18 @@ def introduction():
              else:
                 print("Invalid")
                 exit()
+=======
+             for i in range(1):
+                 if request == "Y":
+                     print("Well... it looks like you won't know who they are... Sorry!")
+                     print("But your not alone, a couple of friends are with you.")
+                 elif user_request == "N":
+                     print("Sorry, you can not move on. ˙◠˙")
+                     exit()
+                 else:
+                     print("Invalid")
+                     exit()
+>>>>>>> main
   
              while request == "Y":
                  move_on = input("Enter Next:")
