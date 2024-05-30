@@ -1,5 +1,3 @@
-#Hongzheng and Olamide
-
 # Hero - Hello Kitty
 # Enemy - Friends(original) 
 #Enemies (8): My Melody, Mimmy, Pompompurin, Keroppi, Kuromi, Tuxedo Sam, Pochacco, Gudetama.
