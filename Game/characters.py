@@ -146,11 +146,11 @@ def part3():
 
   while next == "Y":
     for i in range(1):
-    move_on = input("Pompompurin chews bubble gum for breaking a record of 55 minutes. How long would you do one?: 65 minutes?(R) or 55 minutes(L):")
-    if move_on == "R":
+      move_on = input("Pompompurin chews bubble gum for breaking a record of 55 minutes. How long would you do one?: 65 minutes?(R) or 55 minutes(L):")
+      if move_on == "R":
           classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 45)
           print("You have successfully made through Level 3, with an addition of Magic Rocks!")
-    else:
+      else:
           print("Invalid")
           again = input("Do you want to start all over again?: Yes or No:")
          
