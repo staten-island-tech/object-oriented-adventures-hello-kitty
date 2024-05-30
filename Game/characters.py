@@ -311,13 +311,12 @@ congrats = ("Congratulations you have completed the Hello Kitty Potion Game! Ple
 
 def conclusion():
     question = input("Do you want to see what had happened? Y or N:")
-    for i in question:
-        if question == "Y":
-            print(narrator)
-            return
-        elif question == "N":
-            print("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
-            exit()
-        else:
-            print("Invalid")
-            exit()
+    if question == "Y":
+        print(narrator)
+        return
+    elif question == "N":
+        print("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
+        exit()
+    else:
+        print("Invalid")
+        exit()
