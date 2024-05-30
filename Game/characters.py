@@ -1,7 +1,7 @@
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 import classes
 import characters2
-
+  
 def introduction():
  start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
  if start == "Y":
@@ -13,7 +13,7 @@ def introduction():
     print("Invalid")
     exit()
 
- while start == "Y":
+ while True:
     user_request = input("Do you want to see the main character? Y/N: ")
     if user_request == "Y":
         classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
@@ -24,7 +24,7 @@ def introduction():
         print("Invalid")
         exit()
 
-    while user_request == "Y":
+    while True:
          move_on = input("Enter Next:")
          if move_on == "Next":
             print("Great! Welcome Hello Kitty! You sure are missing your friends.")
@@ -33,7 +33,7 @@ def introduction():
             print("invalid")
             exit()
   
-         while move_on == "Next":
+         while True:
              request = input("Do you want to add enemies? Y/N: ")
              if request == "Y":
                 print("Well... it looks like you won't know who they are... Sorry!")
@@ -45,7 +45,7 @@ def introduction():
                 print("Invalid")
                 exit()
   
-             while request == "Y":
+             while True:
                  move_on = input("Enter Next:")
                  if move_on == "Next":
                     print("Yikes, that's a lot of enemies. Don't be afraid, a couple of your friends are with you. You just won't know who they are.")
@@ -53,7 +53,7 @@ def introduction():
                     print("Invalid")
                     exit()
       
-                 while move_on == "Next":
+                 while True:
                      ask_request = input("Do you want to add friends? Y/N: ")
                      if ask_request == "Y":
                         print("Looks like you won't know them either. What a bother!")
@@ -64,7 +64,7 @@ def introduction():
                         print("Invalid")
                         exit()
 
-                     while ask_request == "Y":
+                     while True:
                          move_on = input("Enter Next:")
                          if move_on == "Next":
                             print("Great. Now that your familiar with what is expected ahead of you.")
@@ -72,7 +72,7 @@ def introduction():
                             print("Invalid")
                             exit()
                   
-                         while move_on == "Next":
+                         while True:
                              ask = input("Would you like to play the game? Please print Y/N:")
                              if ask == "Y":
                                 print("Let's begin!")
@@ -89,8 +89,8 @@ def part1():
   else:
     print("Invalid")
     exit()
-    
-  while next == "Y":
+
+  while True:
     move_on = input("My Melody does a handstand for 20 minutes. How long would you do one?: 25 minutes?(L) or 20 minutes(R):")
     if move_on == "L":
         classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 15)
@@ -104,7 +104,7 @@ def part1():
             print("Good Bye!")
             exit()
 
-    while move_on == "L":
+    while True:
         characters2.go_on()
         return
 
@@ -116,8 +116,8 @@ def part2():
   else:
     print("Invalid")
     exit()
-
-  while next == "Y":
+    
+  while True:  
     move_on = input("Mimmy does karate for 10 minutes. How long would you do one?: 50 minutes?(L) or 20 minutes(R):")
     if move_on == "L":
         classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 30)
@@ -131,7 +131,7 @@ def part2():
             print("Good Bye!")
             exit()
 
-    while move_on == "L":
+    while True:
       characters2.go_on()
       return
 
@@ -144,7 +144,7 @@ def part3():
     print("Invalid")
     exit()
 
-  while next == "Y":
+  while True:
    move_on = input("Pompompurin chews bubble gum for breaking record of 55 minutes. How long would you do one?: 65 minutes?(R) or 55 minutes(L):")
    if move_on == "R":
         classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 45)
@@ -158,7 +158,7 @@ def part3():
             print("Good Bye!")
             exit()
 
-   while move_on == "R":
+   while True:
       characters2.go_on()
       return
 
@@ -171,7 +171,7 @@ def part4():
     print("Invalid")
     exit()
 
-  while next == "Y":
+  while True:
    move_on = input("Keroppi is willing to be on your side. Will you accpet her?: Yes(R) or No(L):")
    if move_on == "R":
           classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 60)
@@ -186,7 +186,7 @@ def part4():
             print("Good Bye!")
             exit()
 
-   while move_on == "R":
+   while True:
       characters2.go_on()
       return
 
@@ -199,7 +199,7 @@ def part5():
         print("Invalid")
         exit()
 
-  while next == "Y":
+  while True:
    move_on = input("Kuromi swims to the other end of a river in 35 minutes. How long would you do one?: 30 minutes?(R) or 40 minutes(L):")
    if move_on == "R":
         classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 75)
@@ -213,7 +213,7 @@ def part5():
             print("Good Bye!")
             exit()
 
-   while move_on == "R":
+   while True:
       characters2.go_on()
       return
 
@@ -226,7 +226,7 @@ def part6():
     print("Invalid")
     exit()
 
-  while next == "Y":
+  while True:
    move_on = input("Pochacco makes a bird nest in 25 minutes. How long would you do one?: 20 minutes?(L) or 30 minutes(R):")
    if move_on == "L":
         classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 90)
@@ -240,7 +240,7 @@ def part6():
             print("Good Bye!")
             exit()
 
-   while move_on == "L":
+   while True:
       characters2.go_on()
       return
 
@@ -253,7 +253,7 @@ def part7():
     print("Invalid")
     exit()
 
-  while next == "Y":
+  while True:
    move_on = input("Gudetama drives 1 mile in 21 minutes. How long would you do one?: 16 minutes?(L) or 19 minutes(R):")
    if move_on == "L":
         classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 105)
@@ -267,7 +267,7 @@ def part7():
             print("Good Bye!")
             exit()
 
-   while move_on == "L":
+   while True:
       characters2.go_on()
       return
 
@@ -280,7 +280,7 @@ def part8():
         print("Invalid")
         exit()
 
-  while next == "Y":
+  while True:
    move_on = input("Tuxedo Sam is willing to be on your side. Will you accpet him?: Yes(L) or No(R):")
    if move_on == "L":
         classes.create_main("Hello Kitty", "Battling", "Main Character", "Hero", 120)
@@ -295,7 +295,7 @@ def part8():
             print("Good Bye!")
             exit()
 
-   while move_on == "L":
+   while True:
       move = input("Great Job! You have collected all the neccesary items for your potion. Do you want to start making the potion?: Y or N:")
       if move == "Y":
           print("Great! Let's move on!")
