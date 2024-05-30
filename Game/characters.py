@@ -89,7 +89,7 @@ def part1():
   else:
     print("Invalid")
     exit()
-
+    
   while next == "Y":
     move_on = input("My Melody does a handstand for 20 minutes. How long would you do one?: 25 minutes?(L) or 20 minutes(R):")
     if move_on == "L":
