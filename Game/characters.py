@@ -13,16 +13,26 @@ def introduction():
     else:
          print("Invalid")
          exit()
+<<<<<<< HEAD
     while start == "Y":
         user_request = input("Do you want to see the main character? Y/N: ")
         if user_request == "Y":
              classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
         elif user_request == "N":
+=======
+ while start == "Y":
+       user_request = input("Do you want to see the main character? Y/N: ")
+       for i in range(1):
+         if user_request == "Y":
+             classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
+         elif user_request == "N":
+>>>>>>> Hongzheng-Wu10
              print("Aww I hope you can next time. :(")
              exit()
         else:
              print("Invalid")
              exit()
+<<<<<<< HEAD
         while user_request == "Y":
             move_on = input("Enter Next (make sure to capitalize the N!!!):")
             if move_on == "Next":
@@ -38,13 +48,36 @@ def introduction():
                      print("Well... it looks like you won't know who they are... Sorry!")
                      print("But your not alone, a couple of friends are with you.")
             elif user_request == "N":
+=======
+       while user_request == "Y":
+         move_on = input("Enter Next (make sure to capitalize the N!!!):")
+         for i in range(1):
+             if move_on == "Next":
+                 print("Great! Welcome Hello Kitty! You might be missing your friend right now.")
+                 print("But, wait! They aren't answering their calls. Hmm, you might want to hang out with them.")
+             else:
+                 print("invalid")
+                 exit()
+  
+         while move_on == "Next":
+             request = input("Do you want to add enemies? Y/N: ")
+             for i in range(1):
+                 if request == "Y":
+                     print("Well... it looks like you won't know who they are... Sorry!")
+                     print("But your not alone, a couple of friends are with you.")
+                 elif user_request == "N":
+>>>>>>> Hongzheng-Wu10
                      print("Sorry, you can not move on. ˙◠˙")
                      exit()
             else:
                      print("Invalid")
                      exit()
   
+<<<<<<< HEAD
             while request == "Y":
+=======
+             while request == "Y":
+>>>>>>> Hongzheng-Wu10
                  move_on = input("Enter Next:")
                  for i in range(1):
                      if move_on == "Next":
@@ -409,6 +442,7 @@ def conclusion():
             exit()
 
 
+<<<<<<< HEAD
 def restart():
     game_question = input("Do you want to play again?: Y or N:")
     for i in game_question:
@@ -431,3 +465,19 @@ def restart():
         else:
             print("Invalid")
             exit()
+=======
+while True:
+  introduction()
+  part1()
+  part2()
+  part3()
+  part4()
+  part5()
+  part6()
+  part7()
+  part8()
+  conclusion()
+  again = input("Do you want to start all over again?: Yes or No:")
+  if again == "No":
+     break
+>>>>>>> Hongzheng-Wu10

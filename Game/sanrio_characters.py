@@ -28,7 +28,7 @@ Enemies = [{
     'type': "enemy", 
 }, {
     'name': "Tuxedo Sam",                 #they have a competitoon on how can tie 
-    'skill': "",
+    'skill': "Making Tie",
     'type': "friend",
 },{
     'name': "Pochacco",           #bird nest making competiton
