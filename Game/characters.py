@@ -4,17 +4,17 @@ import characters2
 import characters
 
 def introduction():
-  start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
-  if start == "Y":
-    print(narration)
-  elif start == "N":
-    print("Exit terminal.")
-    exit()
-  else:
-    print("Invalid")
-    exit()
-
-while start == "Y":
+ start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
+ for i in range(1):
+     if start == "Y":
+         print(narration)
+     elif start == "N":
+         print("Exit terminal.")
+         exit()
+     else:
+         print("Invalid")
+         exit()
+ while start == "Y":
        user_request = input("Do you want to see the main character? Y/N: ")
        for i in range(1):
          if user_request == "Y":
@@ -25,8 +25,7 @@ while start == "Y":
          else:
              print("Invalid")
              exit()
-
-  while user_request == "Y":
+ while user_request == "Y":
         move_on = input("Enter Next:")
         if move_on == "Next":
             print("Great! Welcome Hello Kitty! You sure are missing your friends.")
