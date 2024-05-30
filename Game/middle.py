@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+#Afsheen
+
+=======
+>>>>>>> Hongzheng-Wu10
 import characters
 
 def middle():
@@ -10,3 +15,7 @@ def middle():
     characters.part7()
     characters.part8()
 middle()
+<<<<<<< HEAD
+
+=======
+>>>>>>> Hongzheng-Wu10
