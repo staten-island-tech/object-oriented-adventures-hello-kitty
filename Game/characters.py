@@ -1,20 +1,65 @@
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 import classes
 import characters2
-  
-def introduction():
- start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
- if start == "Y":
-    print(narration)
- elif start == "N":
-    print("Exit terminal.")
-    exit()
- else:
-    print("Invalid")
-    exit()
+import uuid
 
- while True:
-    user_request = input("Do you want to see the main character? Y/N: ")
+class function():
+    def __init__(self, ask):
+        self.ask = ask
+
+class introduction(function):
+    def __init__(self, ask, start):
+        super().__init__(ask)
+        self.start = start
+    def __str__(self):
+        return f"{self.start}, {self.ask}"
+    
+class parts(function):
+    def __init__(self, ask, move, again):
+        super().__init__(ask)
+        self.move = move
+        self.again = again
+    def __str__(self):
+        return f"{self.ask}, {self.move}, {self.again}"
+
+class conclusion(function):
+    def __init__(self, ask, question):
+        super().__init__(ask)
+        self.question = question
+    def __str__(self):
+        return f"{self.ask}, {self.question}
+
+def create_introduction(start):
+    ask = str(uuid.uuid4())
+    introd = Intro(ask, start)
+    intros.append(introd)
+    for intro in intros:
+        print(intro)
+
+def create_parts(move, again):
+    ask = str(uuid.uuid4())
+    part_s = Parts(ask, move, again)
+    parts.append(part_s)
+    for part in parts:
+        print(part) 
+    
+def create_conclusion(question):
+    ask = str(uuid.uuid4())
+    conclude = Conclude(ask, question)
+    conclusions.append(conclude)
+    for conclusion in conclusions:
+        print(conclusion) 
+
+add_more_ask = "Y"
+        
+def check_tenure(status):
+    if status.lower() == "y":
+        return True
+    else:
+        return False
+
+while add_more_users == "Y":
+    start = input("Do you want to see the main character? Y/N: ")
     if user_request == "Y":
         classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
     elif user_request == "N":
@@ -25,36 +70,60 @@ def introduction():
         exit()
 
     while True:
-      request = input("Do you want to add enemies? Y/N: ")
-      if request == "Y":
-        print("Well... it looks like you won't know who they are... Sorry!")
-        print("But your not alone, a couple of friends are with you.")
-      elif user_request == "N":
-        print("Oh well, see ya later!")
-        exit()
-      else:
-        print("Invalid")
-        exit()
-  
-      while True:
-        ask_request = input("Do you want to add friends? Y/N: ")
-        if ask_request == "Y":
-          print("Looks like you won't know them either. What a bother!")
-        elif ask_request == "N":
-          print("Aw-man!")
-          exit()
-        else:
-          print("Invalid")
-          exit()
-                  
-        while True:
-          ask = input("Would you like to play the game? Please print Y/N:")
-          if ask == "Y":
-            print("Let's begin!")
-            return
-          else:
-            print("Invalid")
+         move_on = input("Enter Next:")
+         if move_on == "Next":
+            print("Great! Welcome Hello Kitty! You sure are missing your friends.")
+            print("But, wait! Your friends aren't with you. But don't be sad.")
+         else:
+            print("invalid")
             exit()
+  
+         while True:
+             request = input("Do you want to add enemies? Y/N: ")
+             if request == "Y":
+                print("Well... it looks like you won't know who they are... Sorry!")
+                print("But your not alone, a couple of friends are with you.")
+             elif user_request == "N":
+                print("Oh well, see ya later!")
+                exit()
+             else:
+                print("Invalid")
+                exit()
+  
+             while True:
+                 move_on = input("Enter Next:")
+                 if move_on == "Next":
+                    print("Yikes, that's a lot of enemies. Don't be afraid, a couple of your friends are with you. You just won't know who they are.")
+                 else:
+                    print("Invalid")
+                    exit()
+      
+                 while True:
+                     ask_request = input("Do you want to add friends? Y/N: ")
+                     if ask_request == "Y":
+                        print("Looks like you won't know them either. What a bother!")
+                     elif ask_request == "N":
+                        print("Aw-man!")
+                        exit()
+                     else:
+                        print("Invalid")
+                        exit()
+
+                     while True:
+                         move_on = input("Enter Next:")
+                         if move_on == "Next":
+                            print("Great. Now that your familiar with what is expected ahead of you.")
+                         else:
+                            print("Invalid")
+                            exit()
+                  
+                         while True:
+                             ask = input("Would you like to play the game? Please print Y/N:")
+                             if ask == "Y":
+                                print("Let's begin!")
+                             else:
+                                print("Invalid")
+                                exit()
 
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
