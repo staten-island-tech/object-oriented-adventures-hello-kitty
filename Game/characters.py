@@ -1,11 +1,11 @@
-narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 import classes
 import characters2
-  
+
+
 def introduction():
  start = (input("Do you wish to start a Sanrio memory game? Y/N: "))
  if start == "Y":
-    print(narration)
+    print("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
  elif start == "N":
     print("Exit terminal.")
     exit()
@@ -13,51 +13,50 @@ def introduction():
     print("Invalid")
     exit()
 
- while True:
-    user_request = input("Do you want to see the main character? Y/N: ")
-    if user_request == "Y":
+
+user_request = input("Do you want to see the main character? Y/N: ")
+if user_request == "Y":
         classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
-    elif user_request == "N":
+elif user_request == "N":
         print("Adios!")
         exit()
-    else:
+else:
         print("Invalid")
         exit()
 
-    while True:
-         move_on = input("Enter Next:")
-         if move_on == "Next":
-            print("Great! Welcome Hello Kitty! You sure are missing your friends.")
-            print("But, wait! Your friends aren't with you. But don't be sad.")
-         else:
-            print("invalid")
-            exit()
   
-         while True:
-             request = input("Do you want to add enemies? Y/N: ")
-             if request == "Y":
-                print("Well... it looks like you won't know who they are... Sorry!")
-                print("But your not alone, a couple of friends are with you.")
-             elif user_request == "N":
-                print("Oh well, see ya later!")
-                exit()
-             else:
-                print("Invalid")
-                exit()
+move_on = input("Enter Next:")
+if move_on == "Next":
+  print("Great! Welcome Hello Kitty! You sure are missing your friends.")
+  print("But, wait! Your friends aren't with you. But don't be sad.")
+else:
+  print("invalid")
+  exit()
   
-             while True:
-                 move_on = input("Enter Next:")
-                 if move_on == "Next":
-                    print("Yikes, that's a lot of enemies. Don't be afraid, a couple of your friends are with you. You just won't know who they are.")
-                 else:
-                    print("Invalid")
-                    exit()
+request = input("Do you want to add enemies? Y/N: ")
+if request == "Y":
+  print("Well... it looks like you won't know who they are... Sorry!")
+  print("But your not alone, a couple of friends are with you.")
+elif user_request == "N":
+    print("Oh well, see ya later!")
+    exit()
+else:
+  print("Invalid")
+  exit()
+  
+
+move_on = input("Enter Next:")
+if move_on == "Next":
+  print("Yikes, that's a lot of enemies. Don't be afraid, a couple of your friends are with you. You just won't know who they are.")
+else:
+  print("Invalid")
+  exit()
       
-                 while True:
-                     ask_request = input("Do you want to add friends? Y/N: ")
-                     if ask_request == "Y":
-                        print("Looks like you won't know them either. What a bother!")
-                     elif ask_request == "N":
+
+ask_request = input("Do you want to add friends? Y/N: ")
+if ask_request == "Y":
+  print("Looks like you won't know them either. What a bother!")
+elif ask_request == "N":
                         print("Aw-man!")
                         exit()
                      else:
@@ -304,14 +303,10 @@ def part8():
           print("Invalid")
           exit()
 
-narrator = ("You have obtained all necessary materials to save your friends.")
-ending = ("You poured the solution, solute, and fairy dust into the magic bottle for the potion. After you mixed the solution with a branch, put the cork on top and shook it, then you  layed out the magic map and held it in place with magic rocks. Finally, the magic potion was poured on to the magic map and all of your friends were cured from the illness.")
-congrats = ("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
-
 def conclusion():
     question = input("Do you want to see what had happened? Y or N:")
     if question == "Y":
-        print(narrator)
+        print("You have obtained all necessary materials to save your friends.")
         return
     elif question == "N":
         print("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
