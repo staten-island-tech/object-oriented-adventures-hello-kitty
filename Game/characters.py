@@ -25,59 +25,34 @@ def introduction():
         exit()
 
     while True:
-         move_on = input("Enter Next:")
-         if move_on == "Next":
-            print("Great! Welcome Hello Kitty! You sure are missing your friends.")
-            print("But, wait! Your friends aren't with you. But don't be sad.")
-         else:
-            print("invalid")
-            exit()
+      request = input("Do you want to add enemies? Y/N: ")
+      if request == "Y":
+        print("Well... it looks like you won't know who they are... Sorry!")
+        print("But your not alone, a couple of friends are with you.")
+      elif user_request == "N":
+        print("Oh well, see ya later!")
+        exit()
+      else:
+        print("Invalid")
+        exit()
   
-         while True:
-             request = input("Do you want to add enemies? Y/N: ")
-             if request == "Y":
-                print("Well... it looks like you won't know who they are... Sorry!")
-                print("But your not alone, a couple of friends are with you.")
-             elif user_request == "N":
-                print("Oh well, see ya later!")
-                exit()
-             else:
-                print("Invalid")
-                exit()
-  
-             while True:
-                 move_on = input("Enter Next:")
-                 if move_on == "Next":
-                    print("Yikes, that's a lot of enemies. Don't be afraid, a couple of your friends are with you. You just won't know who they are.")
-                 else:
-                    print("Invalid")
-                    exit()
-      
-                 while True:
-                     ask_request = input("Do you want to add friends? Y/N: ")
-                     if ask_request == "Y":
-                        print("Looks like you won't know them either. What a bother!")
-                     elif ask_request == "N":
-                        print("Aw-man!")
-                        exit()
-                     else:
-                        print("Invalid")
-                        exit()
-
-                     while True:
-                         move_on = input("Enter Next:")
-                         if move_on == "Next":
-                            print("Great. Now that your familiar with what is expected ahead of you.")
-                         else:
-                            print("Invalid")
-                            exit()
+      while True:
+        ask_request = input("Do you want to add friends? Y/N: ")
+        if ask_request == "Y":
+          print("Looks like you won't know them either. What a bother!")
+        elif ask_request == "N":
+          print("Aw-man!")
+          exit()
+        else:
+          print("Invalid")
+          exit()
                   
-                         while True:
-                             ask = input("Would you like to play the game? Please print Y/N:")
-                             if ask == "Y":
-                                print("Let's begin!")
-                                return
-                             else:
+        while True:
+          ask = input("Would you like to play the game? Please print Y/N:")
+          if ask == "Y":
+            print("Let's begin!")
+            return
+          else:
                                 print("Invalid")
                                 exit()
 
