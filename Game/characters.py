@@ -53,8 +53,8 @@ def introduction():
             print("Let's begin!")
             return
           else:
-                                print("Invalid")
-                                exit()
+            print("Invalid")
+            exit()
 
 def part1():
   next = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
