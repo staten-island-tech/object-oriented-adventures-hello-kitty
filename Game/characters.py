@@ -36,7 +36,6 @@ intros = []
 parts = []
 conclusions = []
 
-
 add = "Y"
         
 def check_stat(stat): #This checks the status to see if the user put Y or not.
@@ -94,7 +93,7 @@ while add == "Y":
     else:
         print("Invalid")
         exit()
-  
+
   beginning()
 
   def middle():
@@ -248,7 +247,7 @@ while add == "Y":
     else:
         print("Invalid")
         exit()
-    
+
   middle()
 
   def end():
@@ -261,5 +260,4 @@ while add == "Y":
     else:
         print("Invalid")
         exit()
-    
   end()
