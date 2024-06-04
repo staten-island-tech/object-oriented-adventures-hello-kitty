@@ -1,3 +1,10 @@
+import json
+import os
+# Open the JSON file of pokemon data
+tests = open("sanrio_characters.json", encoding="utf8")
+# create variable "data" that represents the enitre pokedex list
+sanrio_characters = json.load(tests)
+
 import uuid
 class characters:
   def __init__(self, name, skill, type, health):
@@ -53,3 +60,13 @@ def check_stat(stat): #This checks the status to see if the user put Y or not.
  else:
      return False
  
+new_file = "updated.json"
+with open(new_file, "w") as f:
+    json_string = json.dumps(sanrio_characters)
+
+    f.write(json_string)
+
+os.remove("sanrio_characters.json")
+os.rename(new_file, "sanrio_characters.json")
+
+sanrio_characters.append(sanrio_characters)
