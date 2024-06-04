@@ -282,7 +282,7 @@ while add == "Y":
         exit()
   end()
 
-new_file = "sanrio_characters.json"
+new_file = "updated.json"
 with open(new_file, "w") as f:
     json_string = json.dumps(sanrio_characters)
 
