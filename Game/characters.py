@@ -66,7 +66,9 @@ while add == "Y":
   def middle():
     ask = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
     if ask.upper() == "Y":
-        classes.create_enemies5("My Melody", "Handstand endurance", "Enemy", "Infected", 0)
+        characters3.name = "My Melody"
+        characters3.skill = "Handstand endurance"
+        characteristics3"Enemy", "Infected", 0)
         print("You've come across My Melody.")
     else:
         print("Invalid")
