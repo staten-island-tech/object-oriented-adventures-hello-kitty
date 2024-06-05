@@ -1,3 +1,7 @@
+<<<<<<< HEAD:Game/full_game.py
+=======
+#Afsheen
+>>>>>>> olamide:Game/updated_full_game.py
 import characters
 
 class Game:
@@ -18,4 +22,9 @@ class Game:
 
     def end():
         characters.conclusion()
+<<<<<<< HEAD:Game/full_game.py
     end()
+=======
+    end()
+    
+>>>>>>> olamide:Game/updated_full_game.py
