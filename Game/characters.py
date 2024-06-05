@@ -1,7 +1,7 @@
 import uuid
 import classes
 import characters2
-
+import characters3
 
 narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
 narrator = ("You have obtained all necessary materials to save your friends.")
@@ -42,8 +42,6 @@ parts = []
 conclusions = []
 
 
-
-
 add = "Y"
        
 def check_stat(stat): #This checks the status to see if the user put Y or not.
@@ -64,50 +62,6 @@ while add == "Y":
     else:
         print("Invalid")
         exit()
-
-
-    ask = input("Do you want to see the main character? Y/N: ")
-    if ask.upper() == "Y":
-        classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
-    elif ask.upper() == "N":
-        print("Adios!")
-        exit()
-    else:
-        print("Invalid")
-        exit()
- 
-    ask = input("Do you want to add enemies? Y/N: ")
-    if ask.upper() == "Y":
-        print("Well... it looks like you won't know who they are... Sorry!")
-        print("But your not alone, a couple of friends are with you.")
-    elif ask.upper() == "N":
-        print("Oh well, see ya later!")
-        exit()
-    else:
-        print("Invalid")
-        exit()
-
-
-    ask = input("Do you want to add friends? Y/N: ")
-    if ask.upper() == "Y":
-        print("Looks like you won't know them either. What a bother!")
-    elif ask.upper() == "N":
-        print("Aw-man!")
-        exit()
-    else:
-        print("Invalid")
-        exit()
-
-
-    ask = input("Would you like to play the game? Please print Y/N:")
-    if ask.upper() == "Y":
-        print("Let's begin!")
-    else:
-        print("Invalid")
-        exit()
- 
-  beginning()
-
 
   def middle():
     ask = input("Welcome! You've entered Level 1! Want to see your first opponent? Y or N:")
