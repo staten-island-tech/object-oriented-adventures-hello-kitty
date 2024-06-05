@@ -30,27 +30,6 @@ class enemies_lst(characters):
       self.status2 = status2
   def __str__(self):
           return f"{self.name}, {self.skill},{self.type}, {self.status2}, {self.health}"
-main_characters= []
-all_friends= []
-all_enemies= []
-
-def create_main(name, skill, type, main, health):
- new_main = Main_characters(name, skill, type, main, health)
- main_characters.append(new_main)
- for characters in main_characters:
-     print(characters)
-
-def create_friends(name, skill,type, status1, health):
- new_friends = friends_lst(name, skill, type, status1, health)
- all_friends.append(new_friends)
- for friends in all_friends:
-     print(friends)
-
-def create_enemies5(name, skill, type, status2, health):
- new_enemies = enemies_lst(name, skill, type, status2, health)
- all_enemies.append(new_enemies)
- for enemies in all_enemies:
-     print(enemies)
 
 user_request ="Y"
 
@@ -59,14 +38,55 @@ def check_stat(stat): #This checks the status to see if the user put Y or not.
      return True
  else:
      return False
- 
-new_file = "updated.json"
+
+def create_main(name, skill, type, health, main):
+    MAIN = {
+        "name" : name,
+        "skill" : skill,
+        "type" : type,
+        "health" : health,
+        "main" : main
+    }
+    
+    return MAIN
+
+def create_enemies(name, skill, type, health, status1):
+    enemies = {
+        "name" : name,
+        "skill" : skill,
+        "type" : type,
+        "health" : health,
+        "status1" : status1
+    }
+    
+    return enemies
+
+def create_friends(name, skill, type, health, status2):
+    friends = {
+        "name" : name,
+        "skill" : skill,
+        "type" : type,
+        "health" : health,
+        "status2" : status2
+    }
+    
+    return friends
+
+data = []
+
+
+new_characteristics_info = create_main()
+new_characteristics_info = create_enemies()
+new_characteristics_info = create_friends()
+data.append(new_characteristics_info)
+    
+new_file = "update.json"
 with open(new_file, "w") as f:
-    json_string = json.dumps(sanrio_characters)
+    json_string = json.dumps(data)
 
     f.write(json_string)
 
-os.remove("sanrio_characters.json")
-os.rename(new_file, "sanrio_characters.json")
+os.remove("updated.json")
+os.rename(new_file, "update.json")
 
-sanrio_characters.append(sanrio_characters)
+data.append(data)

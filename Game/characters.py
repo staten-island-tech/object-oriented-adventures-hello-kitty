@@ -13,7 +13,6 @@ class function:
     def __init__(self, ask):
         self.ask = ask
 
-
 class introduction(function):
     def __init__(self, ask, start):
         super().__init__(ask)
@@ -36,15 +35,6 @@ class conclusion(function):
     def __str__(self):
         return f"{self.ask}, {self.result}"
 
-
-intros = []
-parts = []
-conclusions = []
-
-
-
-
-add = "Y"
        
 def check_stat(stat): #This checks the status to see if the user put Y or not.
  if stat.lower == "y":
@@ -52,60 +42,18 @@ def check_stat(stat): #This checks the status to see if the user put Y or not.
  else:
      return False
 
-
-while add == "Y":
+class Game():
   def beginning():
     ask = input("Do you want to play a Sanrio memory game? Y/N:")
     if ask.upper() == "Y":
         start = print(narration)
+        pass
     elif ask.upper() == "N":
         print("Exit terminal.")
         exit()
     else:
         print("Invalid")
         exit()
-
-
-    ask = input("Do you want to see the main character? Y/N: ")
-    if ask.upper() == "Y":
-        classes.create_main("Hello Kitty", "Competing", "Main Character", "Hero", 0)
-    elif ask.upper() == "N":
-        print("Adios!")
-        exit()
-    else:
-        print("Invalid")
-        exit()
- 
-    ask = input("Do you want to add enemies? Y/N: ")
-    if ask.upper() == "Y":
-        print("Well... it looks like you won't know who they are... Sorry!")
-        print("But your not alone, a couple of friends are with you.")
-    elif ask.upper() == "N":
-        print("Oh well, see ya later!")
-        exit()
-    else:
-        print("Invalid")
-        exit()
-
-
-    ask = input("Do you want to add friends? Y/N: ")
-    if ask.upper() == "Y":
-        print("Looks like you won't know them either. What a bother!")
-    elif ask.upper() == "N":
-        print("Aw-man!")
-        exit()
-    else:
-        print("Invalid")
-        exit()
-
-
-    ask = input("Would you like to play the game? Please print Y/N:")
-    if ask.upper() == "Y":
-        print("Let's begin!")
-    else:
-        print("Invalid")
-        exit()
- 
   beginning()
 
 
