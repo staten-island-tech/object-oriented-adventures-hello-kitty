@@ -77,31 +77,6 @@ def create_friends(name, skill, type, health, status2):
 
 data = []
 
-class function:
-    def __init__(self, ask):
-        self.ask = ask
-
-class introduction(function):
-    def __init__(self, ask, start):
-        super().__init__(ask)
-        self.start = start
-    def __str__(self):
-        return f"{self.start}, {self.ask}"
-   
-class parts(function):
-    def __init__(self, ask, move):
-        super().__init__(ask)
-        self.move = move
-    def __str__(self):
-        return f"{self.ask}, {self.move}"
-
-class conclusion(function):
-    def __init__(self, ask, result):
-        super().__init__(ask)
-        self.result = result
-    def __str__(self):
-        return f"{self.ask}, {self.result}"
-
 def check_stat(stat): #This checks the status to see if the user put Y or not.
  if stat.lower == "y":
      return True
