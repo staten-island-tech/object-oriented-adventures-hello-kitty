@@ -3,11 +3,6 @@ import json
 import os
 
 # Open the JSON file of pokemon data
-narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
-narrator = ("You have obtained all necessary materials to save your friends.")
-ending = ("You poured the solution, solute, and fairy dust into the magic bottle for the potion. After you mixed the solution with a branch, put the cork on top and shook it, then you  layed out the magic map and held it in place with magic rocks. Finally, the magic potion was poured on to the magic map and all of your friends were cured from the illness.")
-congrats = ("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
-
 class characters:
   def __init__(self, name, skill, type, health):
       self.name = name
@@ -92,30 +87,30 @@ class Game:
   def __str__(self):
         return f"{self.start}, {self.ask}"
     
-  def beginning():
-    ask = input("Do you want to play a Sanrio memory game? Y/N:")
-    if ask.upper() == "Y":
-        start = print("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
-    elif ask.upper() == "N":
+  def beginning(): 
+    start = input("Do you want to play a Sanrio memory game? Y/N:")
+    if start.upper() == "Y":
+        print("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
+    elif start.upper() == "N":
         print("Exit terminal.")
         exit()
     else:
         print("Invalid")
         exit()
+
+    characters2.go_on()
   beginning()
   
-  def __init__(self, ask, move):
+  def __init__(self, ask, move, still_continue):
         super().__init__(ask)
         self.move = move
+        self.still_continue = still_continue
   def __str__(self):
-        return f"{self.ask}, {self.move}"
+        return f"{self.ask}, {self.move}, {self.still_continue}"
   
   def middle():
-    add_more_characteristics = "Y"
     still_continue = input("Welcome! You've entered Level 1! Want to see your opponent? Y or N:").upper()
-    add_more_characteristics == still_continue
-    if add_more_characteristics == "Y":
-        still_continue
+    if still_continue == "Y":
         name = "My Melody"
         skill = "Handstand endurance"
         type = "Enemy"
@@ -138,16 +133,16 @@ class Game:
         else:
             print("Invalid")
             exit()
+    else:
+        print("Bye!")
+        exit()
 
     characters2.go_on()
   middle()
 
   def middle2():
-    add_more_characteristics = "Y"
     still_continue = input("Welcome! You've entered Level 2! Want to see your opponent? Y or N:").upper()
-    add_more_characteristics == still_continue
-    if add_more_characteristics == "Y":
-        still_continue
+    if still_continue == "Y":
         name = "Mimmy"
         skill = "Swimming"
         type = "Enemy"
@@ -170,16 +165,16 @@ class Game:
         else:
             print("Invalid")
             exit()
+    else:
+        print("Bye!")
+        exit()
 
-    characters2.go_on()  
+    characters2.go_on()
   middle2()
 
   def middle3():
-    add_more_characteristics = "Y"
     still_continue = input("Welcome! You've entered Level 3! Want to see your opponent? Y or N:").upper()
-    add_more_characteristics == still_continue
-    if add_more_characteristics == "Y":
-        still_continue
+    if still_continue == "Y":
         name = "Pompompurin"
         skill = "Bubble Gum Competition"
         type = "Enemy"
@@ -202,15 +197,16 @@ class Game:
         else:
             print("Invalid")
             exit()
+    else:
+        print("Bye!")
+        exit()
 
     characters2.go_on()
   middle3()
 
   def middle4():
-    add_more_characteristics = "Y"
     still_continue = input("Welcome! You've entered Level 4! Want to see your opponent? Y or N:").upper()
-    add_more_characteristics == still_continue
-    if add_more_characteristics == "Y":
+    if still_continue == "Y":
         still_continue
         name = "Keroppi"
         skill = "Cooking"
@@ -235,16 +231,16 @@ class Game:
         else:
             print("Invalid")
             exit()
+    else:
+        print("Bye!")
+        exit()
 
     characters2.go_on()
   middle4()
 
   def middle5():
-    add_more_characteristics = "Y"
     still_continue = input("Welcome! You've entered Level 5! Want to see your opponent? Y or N:").upper()
-    add_more_characteristics == still_continue
-    if add_more_characteristics == "Y":
-        still_continue
+    if still_continue == "Y":
         name = "Kuromi"
         skill = "Swimming"
         type = "Enemy"
@@ -267,16 +263,16 @@ class Game:
         else:
             print("Invalid")
             exit()
+    else:
+        print("Bye!")
+        exit()
 
     characters2.go_on()
   middle5()  
 
   def middle6():
-    add_more_characteristics = "Y"
     still_continue = input("Welcome! You've entered Level 6! Want to see your opponent? Y or N:").upper()
-    add_more_characteristics == still_continue
-    if add_more_characteristics == "Y":
-        still_continue
+    if still_continue == "Y":
         name = "Pochacco"
         skill = "Bird Nest Making"
         type = "Enemy"
@@ -299,16 +295,16 @@ class Game:
         else:
             print("Invalid")
             exit()
+    else:
+        print("Bye!")
+        exit()
 
     characters2.go_on()
   middle6()  
 
   def middle7():
-    add_more_characteristics = "Y"
     still_continue = input("Welcome! You've entered Level 7! Want to see your opponent? Y or N:").upper()
-    add_more_characteristics == still_continue
-    if add_more_characteristics == "Y":
-        still_continue
+    if still_continue == "Y":
         name = "Gudetama"
         skill = "Driving Fast"
         type = "Enemy"
@@ -331,16 +327,16 @@ class Game:
         else:
             print("Invalid")
             exit()
+    else:
+        print("Bye!")
+        exit()
 
     characters2.go_on()
   middle7()
 
   def middle8():
-    add_more_characteristics = "Y"
     still_continue = input("Welcome! You've entered Level 8! Want to see your opponent? Y or N:").upper()
-    add_more_characteristics == still_continue
-    if add_more_characteristics == "Y":
-        still_continue
+    if still_continue == "Y":
         name = "Tuxedo Sam"
         skill = "Making Tie"
         type = "Friend"
@@ -363,6 +359,9 @@ class Game:
         else:
             print("Invalid")
             exit()
+    else:
+        print("Bye!")
+        exit()
 
     characters2.go_on()
   middle8() 
@@ -374,15 +373,21 @@ class Game:
         return f"{self.ask}, {self.result}"
   
   def end():
-    ask = input("Do you want to see what had happened? Y or N:")
-    if ask.upper() == "Y":
-        result = print(narrator)
-    elif ask.upper() == "N":
+    result = input("Do you want to see what had happened? Y or N:")
+    if result.upper() == "Y":
+        print("You have obtained all necessary materials to save your friends.","You poured the solution, solute, and fairy dust into the magic bottle for the potion. After you mixed the solution with a branch, put the cork on top and shook it, then you  layed out the magic map and held it in place with magic rocks. Finally, the magic potion was poured on to the magic map and all of your friends were cured from the illness.")
+    elif result.upper() == "N":
         print("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
         exit()
     else:
         print("Invalid")
         exit()
+    
+    ask = input("Ready to leave?: Y or N:")
+    if ask == "Y":
+        print("Sure was a good time. Hope to see you again! He-he-he!")
+    elif ask == "N":
+        print("Looks like one is here for more adventure!")
    
   end()
 
