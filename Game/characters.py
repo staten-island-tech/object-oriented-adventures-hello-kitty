@@ -15,9 +15,6 @@ class Main_characters(characters):
       self.main= main
   def __str__(self):
       return f"{self.name},{self.skill},{self.type}, {self.main}, {self.health}"
-  def update_status(self, new_skill, new_health):
-      self.skill = new_skill
-      self.health = new_health
 class enemies_lst(characters):
   def __init__(self, name, skill, type, status1, health):
       super().__init__(name,skill, type, health)
@@ -29,7 +26,7 @@ class friends_1st(characters):
       super().__init__(name,skill, type, health)
       self.status2 = status2
   def __str__(self):
-          return f"{self.name}, {self.skill},{self.type}, {self.status2}, {self.health}"
+      return f"{self.name}, {self.skill},{self.type}, {self.status2}, {self.health}"
 
 user_request ="Y"
 
