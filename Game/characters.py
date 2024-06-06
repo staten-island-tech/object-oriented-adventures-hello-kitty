@@ -15,13 +15,13 @@ class Main_characters(characters):
       self.main= main
   def __str__(self):
       return f"{self.name},{self.skill},{self.type}, {self.main}, {self.health}"
-class friends_lst(characters):
+class enemies_lst(characters):
   def __init__(self, name, skill, type, status1, health):
       super().__init__(name,skill, type, health)
       self.status1 = status1
   def __str__(self):
       return f"{self.name}, {self.skill},{self.type}, {self.status1}, {self.health}"
-class enemies_lst(characters):
+class friends_1st(characters):
   def __init__(self, name, skill, type, status2, health):
       super().__init__(name,skill, type, health)
       self.status2 = status2
