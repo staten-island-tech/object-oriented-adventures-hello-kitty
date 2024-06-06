@@ -386,8 +386,10 @@ class Game:
     ask = input("Ready to leave?: Y or N:")
     if ask == "Y":
         print("Sure was a good time. Hope to see you again! He-he-he!")
+        exit()
     elif ask == "N":
         print("Looks like one is here for more adventure!")
+        exit()
    
   end()
 
