@@ -114,20 +114,20 @@ class Game:
         name = "My Melody"
         skill = "Handstand endurance"
         type = "Enemy"
-        status1 = "Infected"
         health = 0
-        create_enemies(name, skill, type, status1, health)
-        new_info = create_enemies(name, skill, type, status1, health)
+        status1 = "Infected"
+        create_enemies(name, skill, type, health, status1)
+        new_info = create_enemies(name, skill, type, health, status1)
         data.append(new_info)
         move = input("My Melody does a handstand for 20 minutes. How long would you do one?: 25 minutes?(L) or 20 minutes(R):")
         if move == "L":
             name = "Hello Kitty"
             skill = "Battling"
             type = "Hero"
-            main = "Main Character"
             health = 15
-            create_main(name, skill, type, main, health)
-            new_info = create_main(name, skill, type, main, health)
+            main = "Main Character"
+            create_main(name, skill, type, health, main)
+            new_info = create_main(name, skill, type, health, main)
             data.append(new_info)
             print("You have successfully made through Level 1, with an addition of a solute for your potion!")
         else:
@@ -146,20 +146,20 @@ class Game:
         name = "Mimmy"
         skill = "Swimming"
         type = "Enemy"
-        status1 = "Infected"
         health = 0
-        create_enemies(name, skill, type, status1, health)
-        new_info = create_enemies(name, skill, type, status1, health)
+        status1 = "Infected"
+        create_enemies(name, skill, type, health, status1)
+        new_info = create_enemies(name, skill, type, health, status1)
         data.append(new_info)
         move = input("Mimmy does karate for 10 minutes. How long would you do one?: 50 minutes?(L) or 20 minutes(R):")
         if move == "L":
             name = "Hello Kitty"
             skill = "Battling"
             type = "Hero"
-            main = "Main Character"
             health = 30
-            create_main(name, skill, type, main, health)
-            new_info = create_main(name, skill, type, main, health)
+            main = "Main Character"
+            create_main(name, skill, type, health, main)
+            new_info = create_main(name, skill, type, health, main)
             data.append(new_info)
             print("You have successfully made through Level 2, with an addition of a solvent for your potion!")
         else:
@@ -178,20 +178,20 @@ class Game:
         name = "Pompompurin"
         skill = "Bubble Gum Competition"
         type = "Enemy"
+        health = 0 
         status1 = "Infected"
-        health = 0
-        create_enemies(name, skill, type, status1, health)
-        new_info = create_enemies(name, skill, type, status1, health)
+        create_enemies(name, skill, type, health, status1)
+        new_info = create_enemies(name, skill, type, health, status1)
         data.append(new_info)
         move = input("Pompompurin chews bubble gum for breaking record of 55 minutes. How long would you do one?: 65 minutes(R) or 55 minutes(L):")
         if move == "R":
             name = "Hello Kitty"
             skill = "Battling"
             type = "Hero"
-            main = "Main Character"
             health = 45
-            create_main(name, skill, type, main, health)
-            new_info = create_main(name, skill, type, main, health)
+            main = "Main Character"
+            create_main(name, skill, type, health, main)
+            new_info = create_main(name, skill, type, health, main)
             data.append(new_info)
             print("You have successfully made through Level 3, with an addition of Magic Rocks!")
         else:
@@ -211,20 +211,20 @@ class Game:
         name = "Keroppi"
         skill = "Cooking"
         type = "Friend"
-        status2 = "Uninfected"
         health = 0
-        create_friends(name, skill, type, status2, health)
-        new_info = create_friends(name, skill, type, status2, health)
+        status2 = "Uninfected"
+        create_friends(name, skill, type, health, status2)
+        new_info = create_friends(name, skill, type, health, status2)
         data.append(new_info)
         move = input("Keroppi is willing to be on your side. Will you accpet her?: Yes(R) or No(L):")
         if move == "R":
             name = "Hello Kitty"
             skill = "Battling"
             type = "Hero"
-            main = "Main Character"
             health = 60
-            create_main(name, skill, type, main, health)
-            new_info = create_main(name, skill, type, main, health)
+            main = "Main Character"
+            create_main(name, skill, type, health, main)
+            new_info = create_main(name, skill, type, health, main)
             data.append(new_info)
             print("Keroppi: I am so happy to be back with you. I think we have another friend to find, but I don't know who they may be.")
             print("You have successfully made through Level 4, with an addition of a Magic Map of the forest!")
@@ -244,20 +244,20 @@ class Game:
         name = "Kuromi"
         skill = "Swimming"
         type = "Enemy"
+        health = 0 
         status1 = "Infected"
-        health = 0
-        create_enemies(name, skill, type, status1, health)
-        new_info = create_enemies(name, skill, type, status1, health)
+        create_enemies(name, skill, type, health, status1)
+        new_info = create_enemies(name, skill, type, health, status1)
         data.append(new_info)
         move = input("Kuromi swims to the other end of a river in 35 minutes. How long would you do one?: 30 minutes?(R) or 40 minutes(L):")
         if move == "R":
             name = "Hello Kitty"
             skill = "Battling"
             type = "Hero"
-            main = "Main Character"
             health = 75
-            create_main(name, skill, type, main, health)
-            new_info = create_main(name, skill, type, main, health)
+            main = "Main Character"
+            create_main(name, skill, type, health, main)
+            new_info = create_main(name, skill, type, health, main)
             data.append(new_info)
             print("You have successfully made through Level 5, with an addition of a Magic Bag!")
         else:
@@ -276,20 +276,20 @@ class Game:
         name = "Pochacco"
         skill = "Bird Nest Making"
         type = "Enemy"
+        health = 0 
         status1 = "Infected"
-        health = 0
-        create_enemies(name, skill, type, status1, health)
-        new_info = create_enemies(name, skill, type, status1, health)
+        create_enemies(name, skill, type, health, status1)
+        new_info = create_enemies(name, skill, type, health, status1)
         data.append(new_info)
         move = input("Pochacco makes a bird nest in 25 minutes. How long would you do one?: 20 minutes?(L) or 30 minutes(R):")
         if move == "L":
             name = "Hello Kitty"
             skill = "Battling"
             type = "Hero"
-            main = "Main Character"
             health = 90
-            create_main(name, skill, type, main, health)
-            new_info = create_main(name, skill, type, main, health)
+            main = "Main Character"
+            create_main(name, skill, type, health, main)
+            new_info = create_main(name, skill, type, health, main)
             data.append(new_info)
             print("You have successfully made through Level 6, with an addition of a bottle for your potion!")
         else:
@@ -308,20 +308,20 @@ class Game:
         name = "Gudetama"
         skill = "Driving Fast"
         type = "Enemy"
-        status1 = "Infected"
         health = 0
-        create_enemies(name, skill, type, status1, health)
-        new_info = create_enemies(name, skill, type, status1, health)
+        status1 = "Infected"
+        create_enemies(name, skill, type, health, status1)
+        new_info = create_enemies(name, skill, type, health, status1)
         data.append(new_info)
         move = input("Gudetama drives 1 mile in 21 minutes. How long would you do one?: 16 minutes?(L) or 19 minutes(R):")
         if move == "L":
             name = "Hello Kitty"
             skill = "Battling"
             type = "Hero"
-            main = "Main Character"
             health = 105
-            create_main(name, skill, type, main, health)
-            new_info = create_main(name, skill, type, main, health)
+            main = "Main Character"
+            create_main(name, skill, type, health, main)
+            new_info = create_main(name, skill, type, health, main)
             data.append(new_info)
             print("You have successfully made through Level 7, with an addition of a Recipe Book!")
         else:
@@ -340,20 +340,20 @@ class Game:
         name = "Tuxedo Sam"
         skill = "Making Tie"
         type = "Friend"
+        health = 0 
         status2 = "Uninfected"
-        health = 0
-        create_friends(name, skill, type, status2, health)
-        new_info = create_friends(name, skill, type, status2, health)
+        create_friends(name, skill, type, health, status2)
+        new_info = create_friends(name, skill, type, health, status2)
         data.append(new_info)
         move = input("Tuxedo Sam is willing to be on your side. Will you accpet him?: Yes(L) or No(R):")
         if move == "L":
             name = "Hello Kitty"
             skill = "Battling"
             type = "Hero"
-            main = "Main Character"
             health = 120
-            create_main(name, skill, type, main, health)
-            new_info = create_main(name, skill, type, main, health)
+            main = "Main Character"
+            create_main(name, skill, type, health, main)
+            new_info = create_main(name, skill, type, health, main)
             data.append(new_info)
             print("You have successfully made through Level 8, with an addition of Fairy Dust!")
         else:
