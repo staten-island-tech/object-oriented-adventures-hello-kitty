@@ -1,5 +1,4 @@
 import characters2
-import uuid
 import json
 import os
 
@@ -125,8 +124,6 @@ class Game:
         create_enemies(name, skill, type, status1, health)
         new_info = create_enemies(name, skill, type, status1, health)
         data.append(new_info)
-    still_continue = input("Would you like to continue Y/N ").upper()       
-    if add_more_characteristics == "Y":
         move = input("My Melody does a handstand for 20 minutes. How long would you do one?: 25 minutes?(L) or 20 minutes(R):")
         if move == "L":
             name = "Hello Kitty"
@@ -159,8 +156,6 @@ class Game:
         create_enemies(name, skill, type, status1, health)
         new_info = create_enemies(name, skill, type, status1, health)
         data.append(new_info)
-    still_continue = input("Would you like to continue Y/N ").upper()       
-    if add_more_characteristics == "Y":
         move = input("Mimmy does karate for 10 minutes. How long would you do one?: 50 minutes?(L) or 20 minutes(R):")
         if move == "L":
             name = "Hello Kitty"
@@ -193,8 +188,6 @@ class Game:
         create_enemies(name, skill, type, status1, health)
         new_info = create_enemies(name, skill, type, status1, health)
         data.append(new_info)
-    still_continue = input("Would you like to continue Y/N ").upper()       
-    if add_more_characteristics == "Y":
         move = input("Pompompurin chews bubble gum for breaking record of 55 minutes. How long would you do one?: 65 minutes(R) or 55 minutes(L):")
         if move == "R":
             name = "Hello Kitty"
@@ -227,8 +220,6 @@ class Game:
         create_friends(name, skill, type, status2, health)
         new_info = create_friends(name, skill, type, status2, health)
         data.append(new_info)
-    still_continue = input("Would you like to continue Y/N ").upper()       
-    if add_more_characteristics == "Y":
         move = input("Keroppi is willing to be on your side. Will you accpet her?: Yes(R) or No(L):")
         if move == "R":
             name = "Hello Kitty"
@@ -262,8 +253,6 @@ class Game:
         create_enemies(name, skill, type, status1, health)
         new_info = create_enemies(name, skill, type, status1, health)
         data.append(new_info)
-    still_continue = input("Would you like to continue Y/N ").upper()       
-    if add_more_characteristics == "Y":
         move = input("Kuromi swims to the other end of a river in 35 minutes. How long would you do one?: 30 minutes?(R) or 40 minutes(L):")
         if move == "R":
             name = "Hello Kitty"
@@ -296,8 +285,6 @@ class Game:
         create_enemies(name, skill, type, status1, health)
         new_info = create_enemies(name, skill, type, status1, health)
         data.append(new_info)
-    still_continue = input("Would you like to continue Y/N ").upper()       
-    if add_more_characteristics == "Y":
         move = input("Pochacco makes a bird nest in 25 minutes. How long would you do one?: 20 minutes?(L) or 30 minutes(R):")
         if move == "L":
             name = "Hello Kitty"
@@ -330,8 +317,6 @@ class Game:
         create_enemies(name, skill, type, status1, health)
         new_info = create_enemies(name, skill, type, status1, health)
         data.append(new_info)
-    still_continue = input("Would you like to continue Y/N ").upper()       
-    if add_more_characteristics == "Y":
         move = input("Gudetama drives 1 mile in 21 minutes. How long would you do one?: 16 minutes?(L) or 19 minutes(R):")
         if move == "L":
             name = "Hello Kitty"
@@ -364,8 +349,6 @@ class Game:
         create_friends(name, skill, type, status2, health)
         new_info = create_friends(name, skill, type, status2, health)
         data.append(new_info)
-    still_continue = input("Would you like to continue Y/N ").upper()       
-    if add_more_characteristics == "Y":
         move = input("Tuxedo Sam is willing to be on your side. Will you accpet him?: Yes(L) or No(R):")
         if move == "L":
             name = "Hello Kitty"
@@ -403,12 +386,13 @@ class Game:
    
   end()
 
-new_file = "update.json"
+new_file = "updated.json"
 with open(new_file, "w") as f:
     json_string = json.dumps(data)
 
     f.write(json_string)
 
-os.rename(new_file, "update.json")
+os.remove("update.json")
+os.rename(new_file, "updated.json")
 
 data.append(data)
