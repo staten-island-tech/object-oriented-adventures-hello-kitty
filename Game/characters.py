@@ -83,7 +83,16 @@ def check_stat(stat): #This checks the status to see if the user put Y or not.
  else:
      return False
  
-class Game():
+class Game:
+  def __init__(self, ask):
+        self.ask = ask
+  
+  def __init__(self, ask, start):
+        super().__init__(ask)
+        self.start = start
+  def __str__(self):
+        return f"{self.start}, {self.ask}"
+    
   def beginning():
     ask = input("Do you want to play a Sanrio memory game? Y/N:")
     if ask.upper() == "Y":
@@ -95,7 +104,13 @@ class Game():
         print("Invalid")
         exit()
   beginning()
-
+  
+  def __init__(self, ask, move):
+        super().__init__(ask)
+        self.move = move
+  def __str__(self):
+        return f"{self.ask}, {self.move}"
+  
   def middle():
     add_more_characteristics = "Y"
     still_continue = input("Welcome! You've entered Level 1! Want to see your opponent? Y or N:").upper()
@@ -369,6 +384,12 @@ class Game():
     characters2.go_on()
   middle8() 
 
+  def __init__(self, ask, result):
+        super().__init__(ask)
+        self.result = result
+  def __str__(self):
+        return f"{self.ask}, {self.result}"
+  
   def end():
     ask = input("Do you want to see what had happened? Y or N:")
     if ask.upper() == "Y":
