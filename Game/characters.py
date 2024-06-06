@@ -95,7 +95,6 @@ class parts(function):
     def __str__(self):
         return f"{self.ask}, {self.move}"
 
-
 class conclusion(function):
     def __init__(self, ask, result):
         super().__init__(ask)
@@ -103,14 +102,12 @@ class conclusion(function):
     def __str__(self):
         return f"{self.ask}, {self.result}"
 
-       
 def check_stat(stat): #This checks the status to see if the user put Y or not.
  if stat.lower == "y":
      return True
  else:
      return False
  
-
 class Game():
   def beginning():
     ask = input("Do you want to play a Sanrio memory game? Y/N:")
