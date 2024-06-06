@@ -15,6 +15,9 @@ class Main_characters(characters):
       self.main= main
   def __str__(self):
       return f"{self.name},{self.skill},{self.type}, {self.main}, {self.health}"
+  def update_status(self, new_skill, new_health):
+      self.skill = new_skill
+      self.health = new_health
 class enemies_lst(characters):
   def __init__(self, name, skill, type, status1, health):
       super().__init__(name,skill, type, health)
@@ -386,10 +389,8 @@ class Game:
     ask = input("Ready to leave?: Y or N:")
     if ask == "Y":
         print("Sure was a good time. Hope to see you again! He-he-he!")
-        exit()
     elif ask == "N":
         print("Looks like one is here for more adventure!")
-        exit()
    
   end()
 
