@@ -21,12 +21,12 @@ class enemies_lst(characters):
       self.status1 = status1
   def __str__(self):
       return f"{self.name}, {self.skill},{self.type}, {self.status1}, {self.health}"
-class friends_lst(characters):
+class friends_1st(characters):
   def __init__(self, name, skill, type, status2, health):
       super().__init__(name,skill, type, health)
       self.status2 = status2
   def __str__(self):
-          return f"{self.name}, {self.skill},{self.type}, {self.status2}, {self.health}"
+      return f"{self.name}, {self.skill},{self.type}, {self.status2}, {self.health}"
 
 user_request ="Y"
 
@@ -386,10 +386,8 @@ class Game:
     ask = input("Ready to leave?: Y or N:")
     if ask == "Y":
         print("Sure was a good time. Hope to see you again! He-he-he!")
-        exit()
     elif ask == "N":
         print("Looks like one is here for more adventure!")
-        exit()
    
   end()
 
