@@ -4,12 +4,6 @@ import os
 #Run this file to play the game.
 
 # Open the JSON file of pokemon data
-narration = ("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
-narrator = ("You have obtained all necessary materials to save your friends.")
-ending = ("You poured the solution, solute, and fairy dust into the magic bottle for the potion. After you mixed the solution with a branch, put the cork on top and shook it, then you  layed out the magic map and held it in place with magic rocks. Finally, the magic potion was poured on to the magic map and all of your friends were cured from the illness.")
-congrats = ("Congratulations you have completed the Hello Kitty Potion Game! Please tell your friends about it and exit the terminal.")
-
-
 class characters:
     def __init__(self, name, skill, type, health):
         self.name = name
@@ -25,8 +19,6 @@ class characters:
 
     def update_status(self, new_health):
         self.health = new_health
-     
-
 
 class Main_characters(characters):
     def __init__(self, name, skill, type, main, health):
@@ -35,23 +27,19 @@ class Main_characters(characters):
     def __str__(self):
       return f"{self.name},{self.skill},{self.type}, {self.main}, {self.health}"
 class friends_lst(characters):
-    def __init__(self, name, skill, type, status1, health):
-        super().__init__(name,skill, type, health)
-        self.status1 = status1
-    def __str__(self):
-      return f"{self.name}, {self.skill},{self.type}, {self.status1}, {self.health}"
-class Enemy(characters):
     def __init__(self, name, skill, type, status2, health):
         super().__init__(name,skill, type, health)
         self.status2 = status2
     def __str__(self):
-            return f"{self.name}, {self.skill},{self.type}, {self.status2}, {self.health}"
-    
-     
-
+      return f"{self.name}, {self.skill},{self.type}, {self.status2}, {self.health}"
+class Enemy(characters):
+    def __init__(self, name, skill, type, status1, health):
+        super().__init__(name,skill, type, health)
+        self.status1 = status1
+    def __str__(self):
+            return f"{self.name}, {self.skill},{self.type}, {self.status1}, {self.health}"
 
 user_request ="Y"
-
 
 def check_stat(stat): #This checks the status to see if the user put Y or not.
     if stat.upper == "Y":
@@ -59,45 +47,37 @@ def check_stat(stat): #This checks the status to see if the user put Y or not.
     else:
         return False
 
-
 def create_main(name, skill, type, health, main):
     MAIN = {
         "name" : name,
         "skill" : skill,
         "type" : type,
-        "health" : health,
-        "main" : main
+        "main" : main,
+        "health" : health
     }
-   
     return MAIN
-
 
 def create_enemies(name, skill, type, health, status1):
     enemies = {
         "name" : name,
         "skill" : skill,
         "type" : type,
-        "health" : health,
-        "status1" : status1
+        "status1" : status1,
+        "health" : health
     }
-   
     return enemies
-
 
 def create_friends(name, skill, type, health, status2):
     friends = {
         "name" : name,
         "skill" : skill,
         "type" : type,
-        "health" : health,
-        "status2" : status2
+        "status2" : status2,
+        "health" : health
     }
-   
     return friends
 
-
 data = []
-
 
 def check_stat(stat): #This checks the status to see if the user put Y or not.
     if stat.lower == "y":
@@ -116,16 +96,16 @@ class Game:
             return f"{self.start}, {self.ask}"
   
     def beginning():
-        ask = input("Do you want to play a Sanrio memory game? Y/N:")
-        
-        if ask.upper() == "Y":
-            start = print("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
-        elif ask.upper() == "N":
+        start = input("Do you want to play a Sanrio memory game? Y/N:")
+        if start.upper() == "Y":
+            print("Hello and welcome to the Hello Kitty Potion Game! You are Hello Kitty, and all of your friends have turned evil due to an unknown illness. You will need to compete with your friends in various competitions in order to obtain items for a blueberry potion. At the end of the forest you will find a potion that turns all your friends back to normal.")
+        elif start.upper() == "N":
             print("Exit terminal.")
             exit()
         else:
             print("Invalid")
             exit()
+        characters2.go_on()
     beginning()
 
     user_request = input("Do you want to see the main character? Y/N: ")
@@ -139,22 +119,18 @@ class Game:
         print("Invalid")
         exit()
  
- 
-    def __init__(self, ask, move):
+    def __init__(self, ask, move, still_continue):
             super().__init__(ask)
             self.move = move
+            self.still_continue = still_continue
     def __str__(self):
-            return f"{self.ask}, {self.move}"
+            return f"{self.ask}, {self.move}, {self.still_continue}"
     
     def middle():
-       
-        add_more_characteristics = "Y"
         still_continue = input("Welcome! You've entered Level 1! Want to see your opponent? Y or N:").upper()
         My_Melody = Enemy("My Melody", "Handstand", "Enemy", "Infected", 25 )
         print(My_Melody)
-        add_more_characteristics == still_continue
-        if add_more_characteristics == "Y":
-            still_continue
+        if still_continue == "Y":
             name = "My Melody"
             skill = "Handstand endurance"
             type = "Enemy"
@@ -163,7 +139,9 @@ class Game:
             create_enemies(name, skill, type, status1, health)
             new_info = create_enemies(name, skill, type, status1, health)
             data.append(new_info)
-        
+        else:
+            print("Invalid")
+            exit()
            
         still_continue = input("Would you like to continue Y/N ").upper()
         if still_continue == "Y":
@@ -181,7 +159,6 @@ class Game:
                 mc.update_status("12.5")
                 print(f" Battle Won!! Health: {mc.health}")
                 print("Good job!! You have made it through with an addition of  magic dust.")
-              
             elif move == "R":
                 name = "Hello Kitty"
                 skill = "Battling"
@@ -198,6 +175,9 @@ class Game:
             else:
                 print("Invalid")
                 exit()
+        else:
+            print("Invalid")
+            exit()
             
     characters2.go_on()
     middle()
@@ -220,7 +200,6 @@ class Game:
             mc.update_status("25")
             print(f" Battle Won!! Health: {mc.health}")
             print("You have successfully made through Level 1, with an addition of a solute for your potion!")
-            
         elif move == "R":
             mc = Main_characters("Hello Kitty", "Battling", "Main Character", "Hero", 0)
             print(mc)
@@ -228,6 +207,7 @@ class Game:
             exit()
         else:
             print("Invalid")
+
     characters2.go_on()
     middle_cont()
 
@@ -258,7 +238,6 @@ class Game:
                 mc.update_status( "37.5")
                 print(f" Battle Won!! Health: {mc.health}")
                 print("Good job!! You have made it through with an addition of  magic dust.")
-               
             elif move == "R":        
                 mc = Main_characters("Hello Kitty", "Battling", "Main Character", "Hero", 0)
                 print(mc)
@@ -267,6 +246,10 @@ class Game:
             else:
                 print("Invalid")
                 exit()
+        else:
+            print("Invalid")
+            exit()
+
     characters2.go_on()
     middle2()
           
@@ -288,7 +271,6 @@ class Game:
             mc.update_status("50")
             print(f" Battle Won!! Health: {mc.health}")
             print("You have successfully made through Level 2, with an addition of a solvent for your potion!")
-            
         elif move == "L":
             mc = Main_characters("Hello Kitty", "Battling", "Main Character", "Hero", 0)
             print(mc)
@@ -296,12 +278,10 @@ class Game:
             exit()
         else:
             print("Invalid")
+            exit()
+
     characters2.go_on()
     middle2_cont()
-
-
-   
-
 
     def middle3():
         still_continue = input("Welcome! You've entered Level 3! Want to see your opponent? Y or N:").upper()
@@ -338,6 +318,10 @@ class Game:
             else:
                 print("Invalid")
                 exit()
+        else:
+            print("Invalid")
+            exit()
+
     characters2.go_on()
     middle3()
     
@@ -367,11 +351,9 @@ class Game:
             exit()
         else:
             print("Invalid")
+
     characters2.go_on()
     middle3_cont()
-
-    
-
 
     def middle4():
         still_continue = input("Welcome! You've entered Level 4! Want to see your opponent? Y or N:").upper()
@@ -408,11 +390,12 @@ class Game:
             else:
                 print("Bye!")
                 exit()
-
+        else:
+            print("Invalid")
+            exit()
 
     characters2.go_on()
     middle4()
-
 
     def middle5():
         still_continue = input("Welcome! You've entered Level 5! Want to see your opponent? Y or N:").upper()
@@ -449,11 +432,12 @@ class Game:
             else:
                 print("Bye!")
                 exit()
-
+        else:
+            print("Invalid")
+            exit()
 
     characters2.go_on()
     middle5()  
-
 
     def middle6():
         still_continue = input("Welcome! You've entered Level 6! Want to see your opponent? Y or N:").upper()
@@ -490,11 +474,12 @@ class Game:
             else:
                 print("Bye!")
                 exit()
-
+        else:
+            print("Invalid")
+            exit()
 
     characters2.go_on()
     middle6()  
-
 
     def __init__(self, ask, result):
             super().__init__(ask)
@@ -513,27 +498,21 @@ class Game:
             print("Invalid")
             exit()
    
-    ask = input("Ready to leave?: Y or N:")
-    if ask == "Y":
-        print("Sure was a good time. Hope to see you again! He-he-he!")
-    elif ask == "N":
-        print("Looks like one is here for more adventure!")
+        ask = input("Ready to leave?: Y or N:")
+        if ask == "Y":
+            print("Sure was a good time. Hope to see you again! He-he-he!")
+        elif ask == "N":
+            print("Looks like one is here for more adventure!")
    
     end()
-
-    characters2.go_on()
-    middle()
 
 new_file = "updated.json"
 with open(new_file, "w") as f:
     json_string = json.dumps(data)
 
-
     f.write(json_string)
-
 
 os.remove("update.json")
 os.rename(new_file, "updated.json")
-
 
 data.append(data)
